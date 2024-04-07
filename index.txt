@@ -1,24 +1,24 @@
-vCard - Personal Portfolio
+Abel - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Abel Truong
+Abel Truong
+Junior Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+truonghungan2000@gmail.com
 
 Phone
-+1 (213) 352-2795
++1 359637400
 
 Birthday
-June 23, 1982
+Nov 29, 2000
 
 Location
-Sacramento, California, USA
+2 D. No. 9, Hiep Binh Chanh, Thu Duc, Ho Chi Minh city, VN
 
 # navbar
 
