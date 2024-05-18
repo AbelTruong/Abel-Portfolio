@@ -11,8 +11,13 @@
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
-}
 
-.about-text p {
-  margin-bottom: 15px;
+  p {
+    margin-bottom: 15px;
+  }
+
+  a {
+    display: inline-block;
+    color: white;
+  }
 }
