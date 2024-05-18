@@ -1,11 +1,8 @@
 {
   "prettier.trailingComma": "es5",
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "prettier.semi": false,
-  "prettier.singleQuote": true,
+  "prettier.singleQuote": false,
   "prettier.printWidth": 120,
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "html.validate.scripts": false,
-  "html.validate.styles": false
+  "editor.formatOnSave": true
 }
