@@ -1,0 +1,10 @@
+node_modules
+
+/.cache
+/build
+/public/build/
+/public/_dev
+
+.env
+package-lock.json
+yarn.lock

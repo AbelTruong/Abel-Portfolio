@@ -1,0 +1,23 @@
+{
+  "name": "checkout-extension-app",
+  "private": true,
+  "scripts": {
+    "compile_style": "sass ./sass/app.scss ./css/app.css --watch",
+    "prettier:code": "prettier \"**/*.{js,jsx}\"",
+    "prettier:other": "prettier \"**/*.{md,css,scss,yaml,yml,json}\"",
+    "format:code": "npm run prettier:code -- --write",
+    "format:other": "npm run prettier:other -- --write",
+    "format": "npm-run-all -p format:*",
+    "remove_depend": "rm -rf node_modules yarn.lock package-lock.json build .cache",
+    "install_depend": "npm i"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16.0.0 <22.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^3.2.4"
+  },
+  "author": "abeltruong"
+}
