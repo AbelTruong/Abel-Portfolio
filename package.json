@@ -2,7 +2,7 @@
   "name": "checkout-extension-app",
   "private": true,
   "scripts": {
-    "compile_style": "sass ./sass/app.scss ./css/app.css --watch",
+    "compile_style": "sass ./assets/sass/app.scss ./assets/css/app.css --watch",
     "prettier:code": "prettier \"**/*.{js,jsx}\"",
     "prettier:other": "prettier \"**/*.{md,css,scss,yaml,yml,json}\"",
     "format:code": "npm run prettier:code -- --write",
