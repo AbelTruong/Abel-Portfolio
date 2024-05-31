@@ -254,3 +254,8 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
+
+.hover-link:hover {
+  transition: var(--transition-2);
+  background-color: var(--vegas-teal);
+}
