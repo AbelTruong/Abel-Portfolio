@@ -2,6 +2,7 @@ node_modules
 css
 
 /.cache
+/dist
 /build
 /public/build/
 /public/_dev
