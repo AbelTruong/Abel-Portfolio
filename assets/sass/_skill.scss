@@ -1,41 +1,57 @@
 /**
  * skills 
  */
+.skills {
+  &-title {
+    margin-bottom: 20px;
+  }
 
-.skills-title {
-  margin-bottom: 20px;
-}
+  &-list {
+    padding: 20px;
+  }
 
-.skills-list {
-  padding: 20px;
-}
+  &-item {
+    > h4 {
+      margin-bottom: 10px;
+      color: var(--white-1);
+      font-size: medium;
+    }
+  }
 
-.skills-item:not(:last-child) {
-  margin-bottom: 15px;
-}
+  &-details {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
 
-.skill .title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-bottom: 8px;
-}
+  .skills-details:not(:last-child) {
+    margin-bottom: 15px;
+  }
 
-.skill .title-wrapper data {
-  color: var(--light-gray);
-  font-size: var(--fs-7);
-  font-weight: var(--fw-300);
-}
+  .skill .title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 8px;
+  }
 
-.skill-progress-bg {
-  background: var(--jet);
-  width: 100%;
-  height: 8px;
-  border-radius: 10px;
-}
+  .skill .title-wrapper data {
+    color: var(--light-gray);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-300);
+  }
 
-.skill-progress-fill {
-  background: var(--text-gradient-yellow);
-  height: 100%;
-  border-radius: inherit;
+  .skill-progress-bg {
+    background: var(--jet);
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+  }
+
+  .skill-progress-fill {
+    background: var(--text-gradient-yellow);
+    height: 100%;
+    border-radius: inherit;
+  }
 }
