@@ -13,5 +13,3 @@ yarn compile_style
 ```
 
 - live server
-
-# Làm môt button cho thực hiện việc change background bạn nhé
