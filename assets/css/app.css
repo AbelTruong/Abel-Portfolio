@@ -1155,12 +1155,6 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
-  .filter-list {
-    display: none;
-  }
-  .filter-select-box {
-    display: none;
-  }
 }
 /**
  * responsive larger than 580px screen
@@ -1461,6 +1455,9 @@ textarea.form-input::-webkit-resizer {
   .article-title {
     padding-bottom: 20px;
   }
+  .filter-select-box {
+    display: none;
+  }
   .filter-list {
     display: flex;
     justify-content: flex-start;
@@ -1744,6 +1741,13 @@ textarea.form-input::-webkit-resizer {
 .more-actions > img {
   width: 30px;
   height: 30px;
+}
+
+.learned .filter-list {
+  display: none;
+}
+.learned .filter-select-box {
+  display: none;
 }
 
 /*# sourceMappingURL=app.css.map */
