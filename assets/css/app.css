@@ -1155,6 +1155,9 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
+  .service-title {
+    padding-top: 20px;
+  }
 }
 /**
  * responsive larger than 580px screen
@@ -1431,6 +1434,12 @@ textarea.form-input::-webkit-resizer {
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
+  }
+  /**
+  * SERVICE
+  */
+  .service-title {
+    padding-top: 0px;
   }
   /**
    * NAVBAR

@@ -23,6 +23,11 @@
   .blog-banner-box {
     height: auto;
   }
+
+  // SERVICE
+  .service-title {
+    padding-top: 20px;
+  }
 }
 
 /**
@@ -375,6 +380,13 @@
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
+  }
+
+  /**
+  * SERVICE
+  */
+  .service-title {
+    padding-top: 0px;
   }
 
   /**
