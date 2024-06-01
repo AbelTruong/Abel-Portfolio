@@ -545,6 +545,17 @@
 
   .clients-item {
     min-width: calc(25% - 38px);
+
+    img {
+      width: 100%;
+      filter: grayscale(1);
+      transition: var(--transition-1);
+    }
+
+    img:hover {
+      filter: grayscale(0);
+      transition: var(--transition-1);
+    }
   }
 
   /**
