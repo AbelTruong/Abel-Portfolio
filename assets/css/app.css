@@ -885,7 +885,9 @@ main {
   margin-bottom: 20px;
 }
 .skills-list {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .skills-item {
   cursor: auto !important;
