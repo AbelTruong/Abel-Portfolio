@@ -1155,6 +1155,12 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
+  .filter-list {
+    display: none;
+  }
+  .filter-select-box {
+    display: none;
+  }
 }
 /**
  * responsive larger than 580px screen
@@ -1454,9 +1460,6 @@ textarea.form-input::-webkit-resizer {
    */
   .article-title {
     padding-bottom: 20px;
-  }
-  .filter-select-box {
-    display: none;
   }
   .filter-list {
     display: flex;

@@ -23,6 +23,15 @@
   .blog-banner-box {
     height: auto;
   }
+
+  // learned
+  .filter-list {
+    display: none;
+  }
+
+  .filter-select-box {
+    display: none;
+  }
 }
 
 /**
@@ -408,9 +417,9 @@
     padding-bottom: 20px;
   }
 
-  .filter-select-box {
-    display: none;
-  }
+  // .filter-select-box {
+  //   display: none;
+  // }
 
   .filter-list {
     display: flex;
