@@ -23,11 +23,6 @@
   .blog-banner-box {
     height: auto;
   }
-
-  // SERVICE
-  .service-title {
-    padding-top: 20px;
-  }
 }
 
 /**
@@ -353,6 +348,13 @@
   .form-btn ion-icon {
     font-size: 18px;
   }
+
+  /**
+  * SERVICE
+  */
+  .service-title {
+    margin-top: 0px;
+  }
 }
 
 /**
@@ -380,13 +382,6 @@
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
-  }
-
-  /**
-  * SERVICE
-  */
-  .service-title {
-    padding-top: 0px;
   }
 
   /**

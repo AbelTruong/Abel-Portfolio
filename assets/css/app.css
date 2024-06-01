@@ -481,6 +481,7 @@ main {
 }
 
 .service-title {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -1155,9 +1156,6 @@ textarea.form-input::-webkit-resizer {
   .blog-banner-box {
     height: auto;
   }
-  .service-title {
-    padding-top: 20px;
-  }
 }
 /**
  * responsive larger than 580px screen
@@ -1413,6 +1411,12 @@ textarea.form-input::-webkit-resizer {
   .form-btn ion-icon {
     font-size: 18px;
   }
+  /**
+  * SERVICE
+  */
+  .service-title {
+    margin-top: 0px;
+  }
 }
 /**
  * responsive larger than 768px screen
@@ -1434,12 +1438,6 @@ textarea.form-input::-webkit-resizer {
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
-  }
-  /**
-  * SERVICE
-  */
-  .service-title {
-    padding-top: 0px;
   }
   /**
    * NAVBAR
