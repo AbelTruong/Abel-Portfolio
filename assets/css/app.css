@@ -331,6 +331,7 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   overflow: hidden;
+  cursor: pointer;
 }
 
 .info-content .name {
