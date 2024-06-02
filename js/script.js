@@ -134,4 +134,7 @@ modalAvatar.addEventListener("click", showModalAvatar.bind(null, modalAvatar))
 /**
  * Show More Actions
  */
-// showMoreActions()
+const moreActions = document.querySelector("[show-more-actions]")
+moreActions.addEventListener("click", function () {
+  showMoreActions()
+})
