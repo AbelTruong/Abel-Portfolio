@@ -144,3 +144,13 @@
 .social-item .social-link:hover {
   color: var(--light-gray);
 }
+
+.modal-images {
+  padding: 20px;
+  img {
+    max-width: 500px;
+    width: 80vw;
+    height: auto;
+    border-radius: 12px;
+  }
+}

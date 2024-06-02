@@ -452,6 +452,16 @@ main {
   color: var(--light-gray);
 }
 
+.modal-images {
+  padding: 20px;
+}
+.modal-images img {
+  max-width: 500px;
+  width: 80vw;
+  height: auto;
+  border-radius: 12px;
+}
+
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -629,7 +639,7 @@ main {
 }
 
 /**
- * #testimonials-modal
+ * #modal
  */
 .modal-container {
   position: fixed;
@@ -676,7 +686,7 @@ main {
   pointer-events: all;
 }
 
-.testimonials-modal {
+.modal {
   background: var(--eerie-black-2);
   position: relative;
   padding: 15px;
@@ -690,7 +700,7 @@ main {
   z-index: 2;
 }
 
-.modal-container.active .testimonials-modal {
+.modal-container.active .modal {
   transform: scale(1);
   opacity: 1;
 }
@@ -1322,7 +1332,7 @@ textarea.form-input::-webkit-resizer {
   .modal-container {
     padding: 20px;
   }
-  .testimonials-modal {
+  .modal {
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
@@ -1449,7 +1459,7 @@ textarea.form-input::-webkit-resizer {
    * ABOUT
    */
   /* testimonials modal */
-  .testimonials-modal {
+  .modal {
     gap: 35px;
     max-width: 680px;
   }
