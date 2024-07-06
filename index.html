@@ -1,704 +1,673 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abel - Personal Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abel - Personal Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link rel="shortcut icon" href="./assets/images/logo-abel.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="./assets/images/logo-abel.svg" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/app.css" />
+  <link rel="stylesheet" href="./assets/css/app.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box" modal-avatar>
-            <img src="./assets/images/abel_avatar.jpeg" alt="Abel Truong" width="80" data-modal-avatar />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box" modal-avatar>
+          <img src="./assets/images/abel_avatar.jpeg" alt="Abel Truong" width="80" data-modal-avatar />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Abel Truong">Abel Truong</h1>
-            <p class="title">Web / Shopify developer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+        <div class="info-content">
+          <h1 class="name" title="Abel Truong">Abel Truong</h1>
+          <p class="title">Web / Shopify developer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:abeltruong.arena@gmail.com" class="contact-link">abeltruong.arena@gmail.com</a>
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone/WhatsApp/Skype</p>
+              <a href="mailto:abeltruong.arena@gmail.com" class="contact-link">abeltruong.arena@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+359637400" class="contact-link">+84 359637400</a>
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone/WhatsApp/Skype</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-                <time datetime="2000-11-29">Nov 29, 2000</time>
-              </div>
-            </li>
+              <a href="tel:+359637400" class="contact-link">+84 359637400</a>
+            </div>
+          </li>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2000-11-29">Nov 29, 2000</time>
+            </div>
+          </li>
 
-                <address>2 D. No. 9, Hiep Binh Chanh, Thu Duc, Ho Chi Minh city</address>
-              </div>
-            </li>
-          </ul>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-          <div class="separator"></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://github.com/AbelTruong" class="social-link" target="_blank">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+              <address>2 D. No. 9, Hiep Binh Chanh, Thu Duc, Ho Chi Minh city</address>
+            </div>
+          </li>
+        </ul>
 
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/abel-truong-289b59242/" class="social-link" target="_blank">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+        <div class="separator"></div>
 
-            <li class="social-item">
-              <a href="https://www.facebook.com/abel.dev.apt2" class="social-link" target="_blank">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/AbelTruong" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a href="https://www.instagram.com/abel_dev_77" class="social-link" target="_blank">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/abel-truong-289b59242/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
 
-      <!--
+          <li class="social-item">
+            <a href="https://www.facebook.com/abel.dev.apt2" class="social-link" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/abel_dev_77" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Learned</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Learned</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              Hi there! I'm Abel. I'm lived in Ho Chi Minh City, Viet Nam. I'm a Shopify developer with a passion for
-              creating beautiful and functional e-commerce experiences.
-            </p>
-            <div>
-              I'm a Shopify developer with over 2 years of experience in designing, programming, and optimizing online
-              store websites. I can build
-              <a href="https://apps.shopify.com/" target="_blank" class="hover-link">
-                <strong>Applications</strong>
-              </a>
-              from scratch to solve many customer problems, help businesses customize their
-              <a href="https://shopify.dev/docs/api/checkout-ui-extensions" target="_blank" class="hover-link">
-                <strong>Checkout pages</strong>
-              </a>
-              with Checkout UI extension, and even build a sales page from scratch using the latest technologies with
-              <a href="https://hydrogen.shopify.dev/" target="_blank" class="hover-link"
-                ><strong>Shopify hydrogen</strong></a
-              >. I always stay updated on the latest trends in eCommerce to provide my clients with the best possible
-              solutions.
-            </div>
-          </section>
+        <section class="about-text">
+          <p>
+            Hi there! I'm Abel. I'm lived in Ho Chi Minh City, Viet Nam. I'm a Shopify developer with a passion for
+            creating beautiful and functional e-commerce experiences.
+          </p>
+          <div>
+            I'm a Shopify developer with over 2 years of experience in designing, programming, and optimizing online
+            store websites. I can build
+            <a href="https://apps.shopify.com/" target="_blank" class="hover-link">
+              <strong>Applications</strong>
+            </a>
+            from scratch to solve many customer problems, help businesses customize their
+            <a href="https://shopify.dev/docs/api/checkout-ui-extensions" target="_blank" class="hover-link">
+              <strong>Checkout pages</strong>
+            </a>
+            with Checkout UI extension, and even build a sales page from scratch using the latest technologies with
+            <a href="https://hydrogen.shopify.dev/" target="_blank" class="hover-link"><strong>Shopify
+                hydrogen</strong></a>. I always stay updated on the latest trends in eCommerce to provide my clients
+            with the best possible
+            solutions.
+          </div>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/shopify-logo.svg" alt="Shopify development icon" width="40" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Shopify experts</h4>
-                  <p class="service-item-text">
-                    I'm upgrading myself everyday to become a freelance developer on the Shopify platform.
-                  </p>
-                </div>
-              </li>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/shopify-logo.svg" alt="Shopify development icon" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Shopify experts</h4>
+                <p class="service-item-text">
+                  I'm upgrading myself everyday to become a freelance developer on the Shopify platform.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/icons8-cart-48.png" alt="E-commerce Development" width="44" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">E-commerce development</h4>
-                  <p class="service-item-text">Build and maintain websites on the Shopify platform</p>
-                </div>
-              </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-cart-48.png" alt="E-commerce Development" width="44" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">E-commerce development</h4>
+                <p class="service-item-text">Build and maintain websites on the Shopify platform</p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/shopify-logo.svg" alt="shopify app icon" width="40" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Shopify app development</h4>
-                  <p class="service-item-text">Build applications on Shopify app store</p>
-                </div>
-              </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/shopify-logo.svg" alt="shopify app icon" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Shopify app development</h4>
+                <p class="service-item-text">Build applications on Shopify app store</p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
-                  <p class="service-item-text">
-                    High-quality development of general professional level websites beyond the Shopify platform.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of general professional level websites beyond the Shopify platform.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials
         -->
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
 
-            <ul class="testimonials-list has-scrollbar">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="./assets/images/avatar-1.png" alt="Hoang Minh Tuan" width="60" data-testimonials-avatar />
-                  </figure>
-
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Hoang Minh Tuan</h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="./assets/images/avatar-2.png" alt="Isabella Ison" width="60" data-testimonials-avatar />
-                  </figure>
-
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Isabella Ison</h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="./assets/images/avatar-1.png" alt="Kenneth Au" width="60" data-testimonials-avatar />
-                  </figure>
-
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title>Kenneth Au</h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="./assets/images/avatar-1.png" alt="James" width="60" data-testimonials-avatar />
-                  </figure>
-
-                  <h4 class="h4 testimonials-item-title" data-testimonials-title>James</h4>
-
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <!--
-          - testimonials modal
-        -->
-          <div class="modal-container" data-modal-testimonial-container>
-            <div class="overlay" data-testimonial-overlay></div>
-
-            <section class="modal">
-              <button class="modal-close-btn" data-modal-testimonial-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Hoang Minh Tuan" width="80" data-testimonial-img />
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Hoang Minh Tuan" width="60" data-testimonials-avatar />
                 </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
-              </div>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Hoang Minh Tuan</h4>
 
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-testimonial-title>Hoang Minh Tuan</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-testimonial-text>
+                <div class="testimonials-text" data-testimonials-text>
                   <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
                 </div>
               </div>
-            </section>
-          </div>
+            </li>
 
-          <!--
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Isabella Ison" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Isabella Ison</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Kenneth Au" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Kenneth Au</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="James" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>James</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+        <div class="modal-container" data-modal-testimonial-container>
+          <div class="overlay" data-testimonial-overlay></div>
+
+          <section class="modal">
+            <button class="modal-close-btn" data-modal-testimonial-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Hoang Minh Tuan" width="80" data-testimonial-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-testimonial-title>Hoang Minh Tuan</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-testimonial-text>
+                <p>Abel là một người khá nhiệt huyết, tận tâm trong công việc, tôi rất là tôn trọng cậu ấy.</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <!--
           - clients
         -->
 
-          <section class="clients">
-            <h3 class="h3 clients-title">Clients / Partners</h3>
+        <section class="clients">
+          <h3 class="h3 clients-title">Clients / Partners</h3>
 
-            <ul class="clients-list has-scrollbar">
-              <li class="clients-item">
-                <a href="https://www.arenacommerce.com/" target="_blank">
-                  <img src="./assets/images/logo-1.png" alt="client logo" />
-                </a>
-              </li>
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="https://www.arenacommerce.com/" target="_blank">
+                <img src="./assets/images/logo-1.png" alt="client logo" />
+              </a>
+            </li>
 
-              <li class="clients-item">
-                <a href="https://vpo.ca/" target="_blank">
-                  <img src="./assets/images/logo-2.webp" alt="client logo" />
-                </a>
-              </li>
+            <li class="clients-item">
+              <a href="https://vpo.ca/" target="_blank">
+                <img src="./assets/images/logo-2.webp" alt="client logo" />
+              </a>
+            </li>
 
-              <li class="clients-item">
-                <a href="https://www.beginningboutique.com/" target="_blank">
-                  <img src="./assets/images/logo-3.png" alt="client logo" />
-                </a>
-              </li>
+            <li class="clients-item">
+              <a href="https://www.beginningboutique.com/" target="_blank">
+                <img src="./assets/images/logo-3.png" alt="client logo" />
+              </a>
+            </li>
 
-              <li class="clients-item">
-                <a href="https://www.lmching.com/" target="_blank">
-                  <img src="./assets/images/logo-4.png" alt="client logo" />
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
+            <li class="clients-item">
+              <a href="https://www.lmching.com/" target="_blank">
+                <img src="./assets/images/logo-4.png" alt="client logo" />
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <a href="https://ptithcm.edu.vn/" target="_blank" class="hover-link">
-                  <h4 class="h4 timeline-item-title">
-                    Posts and Telecommunications Institute of Technology Ho Chi Minh
-                  </h4>
-                </a>
-                <span>09/2018 - 01/2023</span>
-              </li>
-            </ol>
-          </section>
+            <h3 class="h3">Education</h3>
+          </div>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <a href="https://ptithcm.edu.vn/" target="_blank" class="hover-link">
+                <h4 class="h4 timeline-item-title">
+                  Posts and Telecommunications Institute of Technology Ho Chi Minh
+                </h4>
+              </a>
+              <span>09/2018 - 01/2023</span>
+            </li>
+          </ol>
+        </section>
 
-              <h3 class="h3">Languages</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">English</h4>
-                <div class="timeline-content">
-                  <div>
-                    <p class="timeline-text">- 2 toeic skills: 600</p>
-                    <p class="timeline-text">- Basic communication, reading and understanding documents</p>
-                    <p class="timeline-text">- Chat with customers via text message</p>
-                  </div>
+            <h3 class="h3">Languages</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">English</h4>
+              <div class="timeline-content">
+                <div>
+                  <p class="timeline-text">- 2 toeic skills: 600</p>
+                  <p class="timeline-text">- Basic communication, reading and understanding documents</p>
+                  <p class="timeline-text">- Chat with customers via text message</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">ArenaCommerce</h4>
+              <span>07/2022 - 01/2024</span>
+              <div class="timeline-content">
+                <div>
+                  <a href="https://vpo.ca" target="_blank" class="hover-link">
+                    <p class="timeline-text">
+                      - Outsourcing E-commerce: Building an e-commerce website for Canadian customers (Valhalla Pure
+                      Outfitters) that fully meets the features of a most modern sales website - 4 members
+                    </p>
+                  </a>
+                  <p class="timeline-text">
+                    <span class="timeline-tech">Programming Languages:</span> HTML5, SCSS, Figma, TailwindCss, Remix,
+                    Typescript, Nodes, Graphql
+                  </p>
+                </div>
+                <div>
+                  <a href="https://www.youtube.com/watch?v=Xugd6cCpQjY&t=8s" target="_blank" class="hover-link">
+                    <p class="timeline-text">
+                      - Product Web Application: Develop AnyFonts embed app from scratch that allow users to flexibly
+                      customize fonts on their sales pages with many advanced functions - 3 members
+                    </p>
+                  </a>
+                  <p class="timeline-text">
+                    <span class="timeline-tech">Programming Languages:</span> HTML5, SCSS, Figma, ReactJS, Redux
+                    toolkit, Shopify Polaris, NodesJS + ExpressJS, Strapi, Postgresql+ Sequelize
+                  </p>
+                </div>
+                <div>
+                  <p class="timeline-text">
+                    - Outsourcing MMTool: Handle reading files, handle raw data, background job, and moving large data
+                    from other customer platforms to Shopify platforms - 2 members
+                  </p>
+                  <p class="timeline-text">
+                    <span class="timeline-tech">Programming Languages:</span> NodeJS, Strapi, Strapi design system
+                  </p>
+                </div>
+                <div>
+                  <a href="https://www.youtube.com/watch?v=U5U48oyadiE" target="_blank" class="hover-link">
+                    <p class="timeline-text">
+                      - Product Web Application: Maintain, upgrade a Youtube Feed embed app allows users to share
+                      videos from their YouTube page on the sales website - 2 members
+                    </p>
+                  </a>
+                  <p class="timeline-text">
+                    <span class="timeline-tech">Programming Languages:</span> HTML5, SCSS, ReactJS, Redux, Shopify
+                    Polaris, NodesJS + KoaJS, Strapi, Postgresql
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Beginning boutique</h4>
+              <span>05/2022 - present</span>
+              <div class="timeline-content">
+                <div>
+                  <p class="timeline-text">
+                    - FreeLancer Checkout extension: Upgrade and build checkout UI, custom features in the Checkout
+                    page for your store, connect Web pixel to GTM, helping to improve user experience and enhance
+                    purchasing capabilities. - 1 members
+                  </p>
+                  <p class="timeline-text">
+                    <span class="timeline-tech">Programming Languages:</span> Checkout UI extension, Shopify
+                    functions, web pixel, GTM, Remix, ReactJS, Javascript, Graphql
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skills">
+          <h3 class="h3 skills-title">Technologies I use</h3>
+
+          <div class="content-card">
+            <ul class="skills-list">
+              <li class="skills-item">
+                <h4>🔭 Languages - Packages - Library - Framework: 💻</h4>
+                <div class="skills-details">
+                  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
+                    alt="HTML%" />
+                  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
+                    alt="CSS3" />
+                  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"
+                    alt="SASS" />
+                  <img
+                    src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
+                    alt="TAILWIND CSS" />
+                  <img
+                    src="https://img.shields.io/badge/SHOPIFY_POLARIS-161619?style=for-the-badge&logo=shopify&logoColor=4F7637"
+                    alt="SHOPIFY POLARIS" />
+                  <img
+                    src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
+                    alt="JAVASCRIPT" />
+                  <img
+                    src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+                    alt="TYPESCRIPT" />
+                  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
+                    alt="REACT" />
+                  <img src="https://img.shields.io/badge/NextJS-383838?style=for-the-badge&logoColor=FFFFFF"
+                    alt="NEXTJS" />
+                  <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
+                    alt="REDUX" />
+                  <img
+                    src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+                    alt="NODEJS" />
+                  <img
+                    src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white"
+                    alt="EXPRESS" />
+                  <img
+                    src="https://img.shields.io/badge/PostgreSQL-31648C?style=for-the-badge&logo=PostgreSQL&logoColor=FFFFFF"
+                    alt="POSTGRESQL" />
                 </div>
               </li>
-            </ol>
-          </section>
-
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-              <h3 class="h3">Experience</h3>
-            </div>
-
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">ArenaCommerce</h4>
-                <span>07/2022 - 01/2024</span>
-                <div class="timeline-content">
-                  <div>
-                    <a href="https://vpo.ca" target="_blank" class="hover-link">
-                      <p class="timeline-text">
-                        - Outsourcing E-commerce: Building an e-commerce website for Canadian customers (Valhalla Pure
-                        Outfitters) that fully meets the features of a most modern sales website - 4 members
-                      </p>
-                    </a>
-                    <p class="timeline-text">
-                      <span class="timeline-tech">Programming Languages:</span> HTML5, SCSS, Figma, TailwindCss, Remix,
-                      Typescript, Nodes, Graphql
-                    </p>
-                  </div>
-                  <div>
-                    <a href="https://www.youtube.com/watch?v=Xugd6cCpQjY&t=8s" target="_blank" class="hover-link">
-                      <p class="timeline-text">
-                        - Product Web Application: Develop AnyFonts embed app from scratch that allow users to flexibly
-                        customize fonts on their sales pages with many advanced functions - 3 members
-                      </p>
-                    </a>
-                    <p class="timeline-text">
-                      <span class="timeline-tech">Programming Languages:</span> HTML5, SCSS, Figma, ReactJS, Redux
-                      toolkit, Shopify Polaris, NodesJS + ExpressJS, Strapi, Postgresql+ Sequelize
-                    </p>
-                  </div>
-                  <div>
-                    <p class="timeline-text">
-                      - Outsourcing MMTool: Handle reading files, handle raw data, background job, and moving large data
-                      from other customer platforms to Shopify platforms - 2 members
-                    </p>
-                    <p class="timeline-text">
-                      <span class="timeline-tech">Programming Languages:</span> NodeJS, Strapi, Strapi design system
-                    </p>
-                  </div>
-                  <div>
-                    <a href="https://www.youtube.com/watch?v=U5U48oyadiE" target="_blank" class="hover-link">
-                      <p class="timeline-text">
-                        - Product Web Application: Maintain, upgrade a Youtube Feed embed app allows users to share
-                        videos from their YouTube page on the sales website - 2 members
-                      </p>
-                    </a>
-                    <p class="timeline-text">
-                      <span class="timeline-tech">Programming Languages:</span> HTML5, SCSS, ReactJS, Redux, Shopify
-                      Polaris, NodesJS + KoaJS, Strapi, Postgresql
-                    </p>
-                  </div>
+              <li class="skills-item">
+                <h4>♻️ Linter: ✅</h4>
+                <div class="skills-details">
+                  <img
+                    src="https://img.shields.io/badge/Editor%20Config-E0EFEF?style=for-the-badge&logo=editorconfig&logoColor=000"
+                    alt="EDITOR" />
+                  <img
+                    src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"
+                    alt="PRETTIER" />
+                  <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"
+                    alt="ESLINT" />
                 </div>
               </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Beginning boutique</h4>
-                <span>05/2022 - present</span>
-                <div class="timeline-content">
-                  <div>
-                    <p class="timeline-text">
-                      - FreeLancer Checkout extension: Upgrade and build checkout UI, custom features in the Checkout
-                      page for your store, connect Web pixel to GTM, helping to improve user experience and enhance
-                      purchasing capabilities. - 1 members
-                    </p>
-                    <p class="timeline-text">
-                      <span class="timeline-tech">Programming Languages:</span> Checkout UI extension, Shopify
-                      functions, web pixel, GTM, Remix, ReactJS, Javascript, Graphql
-                    </p>
-                  </div>
+              <li class="skills-item">
+                <h4>🔭 Others: 💻</h4>
+                <div class="skills-details">
+                  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"
+                    alt="GIT" />
+                  <img
+                    src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+                    alt="MONGODB" />
+                  <img
+                    src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white"
+                    alt="GRAPHQL" />
+                  <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white"
+                    alt="PRISMA" />
+                  <img src="https://img.shields.io/badge/Strapi-121180?style=for-the-badge&logo=Strapi&logoColor=FFFFFF"
+                    alt="STRAPI" />
+                  <img
+                    src="https://img.shields.io/badge/Shopify_Platform-4F7637?style=for-the-badge&logo=shopify&logoColor=FFFFFF"
+                    alt="SHOPIFY FLATFORM" />
                 </div>
               </li>
-            </ol>
-          </section>
+            </ul>
+          </div>
+        </section>
+      </article>
 
-          <section class="skills">
-            <h3 class="h3 skills-title">Technologies I use</h3>
-
-            <div class="content-card">
-              <ul class="skills-list">
-                <li class="skills-item">
-                  <h4>🔭 Languages - Packages - Library - Framework: 💻</h4>
-                  <div class="skills-details">
-                    <img
-                      src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-                      alt="HTML%"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-                      alt="CSS3"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"
-                      alt="SASS"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
-                      alt="TAILWIND CSS"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/SHOPIFY_POLARIS-161619?style=for-the-badge&logo=shopify&logoColor=4F7637"
-                      alt="SHOPIFY POLARIS"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
-                      alt="JAVASCRIPT"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
-                      alt="TYPESCRIPT"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-                      alt="REACT"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/NextJS-383838?style=for-the-badge&logoColor=FFFFFF"
-                      alt="NEXTJS"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
-                      alt="REDUX"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
-                      alt="NODEJS"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white"
-                      alt="EXPRESS"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/PostgreSQL-31648C?style=for-the-badge&logo=PostgreSQL&logoColor=FFFFFF"
-                      alt="POSTGRESQL"
-                    />
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <h4>♻️ Linter: ✅</h4>
-                  <div class="skills-details">
-                    <img
-                      src="https://img.shields.io/badge/Editor%20Config-E0EFEF?style=for-the-badge&logo=editorconfig&logoColor=000"
-                      alt="EDITOR"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"
-                      alt="PRETTIER"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"
-                      alt="ESLINT"
-                    />
-                  </div>
-                </li>
-                <li class="skills-item">
-                  <h4>🔭 Others: 💻</h4>
-                  <div class="skills-details">
-                    <img
-                      src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"
-                      alt="GIT"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
-                      alt="MONGODB"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white"
-                      alt="GRAPHQL"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white"
-                      alt="PRISMA"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Strapi-121180?style=for-the-badge&logo=Strapi&logoColor=FFFFFF"
-                      alt="STRAPI"
-                    />
-                    <img
-                      src="https://img.shields.io/badge/Shopify_Platform-4F7637?style=for-the-badge&logo=shopify&logoColor=FFFFFF"
-                      alt="SHOPIFY FLATFORM"
-                    />
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </article>
-
-        <!--
+      <!--
           - #WHAT I LEARN
       -->
-        <article class="learned" data-page="learned">
-          <header>
-            <h2 class="h2 article-title">Learned</h2>
-          </header>
+      <article class="learned" data-page="learned">
+        <header>
+          <h2 class="h2 article-title">Learned</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web design</button>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
             </ul>
+          </div>
 
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-select-value>Select category</div>
+          <ul>
+            <li>coming soon</li>
+          </ul>
+        </section>
+      </article>
 
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web design</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul>
-              <li>coming soon</li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
+      <!--
         - #BLOG
       -->
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
 
-          <section class="blog-posts">
-            coming soon
-            <!-- <ul class="blog-posts-list">
+        <section class="blog-posts">
+          coming soon
+          <!-- <ul class="blog-posts-list">
             <li class="blog-post-item">
               <a href="#">
                 <figure class="blog-banner-box">
@@ -721,13 +690,13 @@
               </a>
             </li>
           </ul> -->
-          </section>
-        </article>
+        </section>
+      </article>
 
-        <!--
+      <!--
               - #CONTACT
             -->
-        <!-- <article class="contact" data-page="contact">
+      <!-- <article class="contact" data-page="contact">
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
@@ -761,68 +730,64 @@
           </form>
         </section>
       </article> -->
-      </div>
+    </div>
 
-      <!-- 
+    <!-- 
       - scroll top top button
      -->
-      <div class="scroll-to-top" onclick="{window.scrollTo({ top: 0, behavior: 'smooth' })}">
-        <svg width="20" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M4.5625 12.5L10.8125 6.25L17.0625 12.5"
-            stroke="white"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
+    <div class="scroll-to-top" onclick="{window.scrollTo({ top: 0, behavior: 'smooth' })}">
+      <span className="svg-element">
+        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.5625 12.5L10.8125 6.25L17.0625 12.5" stroke="white" strokeWidth="2" strokeLinecap="round"
+            strokeLinejoin="round" />
         </svg>
-      </div>
+      </span>
+    </div>
 
-      <!-- 
+    <!-- 
       - show overall image
      -->
-      <div class="modal-container" data-modal-avatar-container>
-        <div class="overlay" data-avatar-overlay></div>
+    <div class="modal-container" data-modal-avatar-container>
+      <div class="overlay" data-avatar-overlay></div>
 
-        <section class="modal">
-          <button class="modal-close-btn" data-modal-avatar-close-btn>
-            <ion-icon name="close-outline"></ion-icon>
-          </button>
+      <section class="modal">
+        <button class="modal-close-btn" data-modal-avatar-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
 
-          <div class="modal-images">
-            <img src="./assets//images/abel_avatar.jpeg" alt="abel truong" modal-avatar-img />
-          </div>
-        </section>
-      </div>
+        <div class="modal-images">
+          <img src="./assets//images/abel_avatar.jpeg" alt="abel truong" modal-avatar-img>
+        </div>
+      </section>
+    </div>
 
-      <!-- 
+    <!-- 
       more actions
       - change theme light/dark
-      - change background image
+      - change backgound image
       - change fullscreen
       - download PDF my CV
       - Add copyright copy information
       - ...
      -->
-      <div class="more_actions" show-more-actions>
-        <img src="./assets/images/icon-click.png" alt="more action" />
-      </div>
-
-      <!-- <div class="flower_blossom" id="flowerButton">
+    <div class="more_actions" show-more-actions>
+      <img src="./assets/images/icon-click.png" alt="click to show more action" />
+    </div>
+          <!-- <div class="flower_blossom" id="flowerButton">
         <img src="./assets/images/blosoom.png" alt="more action" />
       <div id="flowerEffect"></div> -->
-    </div>
-    </main>
+  </main>
 
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./js/script.js" type="module"></script>
+  <script src="./js/script.js" type="module"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
