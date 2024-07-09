@@ -478,6 +478,9 @@ main {
 .about-text p {
   margin-bottom: 15px;
 }
+.about-text div {
+  margin-bottom: 15px;
+}
 .about-text a {
   display: inline-block;
   color: white;

@@ -138,3 +138,12 @@ const moreActions = document.querySelector("[show-more-actions]")
 moreActions.addEventListener("click", function () {
   showMoreActions()
 })
+
+document.getElementById("flowerButton").addEventListener("click", function () {
+  const flowerEffect = document.getElementById("flowerEffect")
+  flowerEffect.classList.add("blossom")
+
+  setTimeout(function () {
+    flowerEffect.classList.remove("blossom")
+  }, 500)
+})
