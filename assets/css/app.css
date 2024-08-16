@@ -332,6 +332,7 @@ main {
   background: var(--bg-gradient-onyx);
   overflow: hidden;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .info-content .name {
@@ -1232,9 +1233,6 @@ textarea.form-input::-webkit-resizer {
   }
   .sidebar-info {
     gap: 25px;
-  }
-  .avatar-box {
-    border-radius: 8px;
   }
   .avatar-box img {
     width: 150px;
