@@ -1,8 +1,8 @@
 const modalContainer = document.querySelector(
-  "[data-modal-testimonial-container]",
+  "[data-modal-testimonial-container]"
 );
 const modalCloseBtn = document.querySelector(
-  "[data-modal-testimonial-close-btn]",
+  "[data-modal-testimonial-close-btn]"
 );
 const overlay = document.querySelector("[data-testimonial-overlay]");
 
@@ -26,16 +26,16 @@ function closeModal() {
 function showModalTestimonial(testimonialsItem) {
   // add click event to all modal items
   modalImg.src = testimonialsItem.querySelector(
-    "[data-testimonials-avatar]",
+    "[data-testimonials-avatar]"
   ).src;
   modalImg.alt = testimonialsItem.querySelector(
-    "[data-testimonials-avatar]",
+    "[data-testimonials-avatar]"
   ).alt;
   modalTitle.innerHTML = testimonialsItem.querySelector(
-    "[data-testimonials-title]",
+    "[data-testimonials-title]"
   ).innerHTML;
   modalText.innerHTML = testimonialsItem.querySelector(
-    "[data-testimonials-text]",
+    "[data-testimonials-text]"
   ).innerHTML;
 
   toggleModal();

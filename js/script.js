@@ -125,7 +125,7 @@ const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 for (let i = 0; i < testimonialsItem.length; i++) {
   testimonialsItem[i].addEventListener(
     "click",
-    showModalTestimonial.bind(null, testimonialsItem[i]),
+    showModalTestimonial.bind(null, testimonialsItem[i])
   );
 }
 
@@ -138,7 +138,7 @@ modalAvatar.addEventListener("click", showModalAvatar.bind(null, modalAvatar));
 /**
  * Show More Actions
  */
-const moreActions = document.querySelector("[show-more-actions]");
+// const moreActions = document.querySelector("[show-more-actions]");
 moreActions.addEventListener("click", function () {
   showMoreActions();
 });
