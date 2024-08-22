@@ -138,9 +138,11 @@ modalAvatar.addEventListener("click", showModalAvatar.bind(null, modalAvatar));
 /**
  * Show More Actions
  */
-// const moreActions = document.querySelector("[show-more-actions]");
-moreActions.addEventListener("click", function () {
-  showMoreActions();
+document.addEventListener("DOMContentLoaded", function () {
+  const moreActions = document.querySelector("[show-more-actions]");
+  moreActions.addEventListener("click", function () {
+    showMoreActions();
+  });
 });
 
 document.getElementById("flowerButton").addEventListener("click", function () {
