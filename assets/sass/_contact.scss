@@ -53,7 +53,7 @@
 }
 
 .form-input:focus {
-  border: 2px solid var(--teal-crayola);
+  border: 2px solid var(--crayola-teal);
 }
 
 textarea.form-input {
@@ -69,14 +69,14 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-input:focus:invalid {
-  border-color: var(--bittersweet-shimmer);
+  border-color: var(--abel-teal);
 }
 
 .form-btn {
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
   display: flex;
   justify-content: center;
   align-items: center;
