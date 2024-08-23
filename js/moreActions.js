@@ -57,7 +57,8 @@ class HandleActions {
   }
 
   contact() {
-    console.log("contact action");
+    const sidebarBtn = document.querySelector("[data-sidebar]");
+    sidebarBtn.classList.add("active");
   }
 }
 
