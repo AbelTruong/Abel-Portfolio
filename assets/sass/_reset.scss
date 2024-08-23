@@ -44,12 +44,12 @@ textarea {
 }
 
 ::selection {
-  background: var(--teal-crayola);
+  background: var(--crayola-teal);
   color: var(--smoky-black);
 }
 
 :focus {
-  outline-color: var(--teal-crayola);
+  outline-color: var(--crayola-teal);
 }
 
 html {

@@ -36,7 +36,7 @@
     hsl(0, 0%, 25%) 0%,
     hsla(0, 0%, 25%, 0) 50%
   );
-  --text-gradient-yellow: linear-gradient(
+  --text-gradient-teal: linear-gradient(
     to right,
     hsl(180, 42%, 51%),
     hsl(180, 100%, 25%)
@@ -52,8 +52,8 @@
   --name: hsl(180, 100%, 25%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --teal-crayola: hsl(180, 42%, 51%);
-  --vegas-teal: hsl(180, 100%, 25%);
+  --crayola-teal: hsl(180, 42%, 51%);
+  --abel-teal: hsl(180, 100%, 25%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -129,7 +129,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -202,7 +202,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow);
+  background: var(--text-gradient-teal);
   border-radius: 3px;
 }
 
@@ -217,7 +217,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--teal-crayola);
+  background: var(--crayola-teal);
   border-radius: 5px;
 }
 
@@ -257,5 +257,5 @@ main {
 
 .hover-link:hover {
   transition: var(--transition-2);
-  background-color: var(--vegas-teal);
+  background-color: var(--abel-teal);
 }

@@ -43,12 +43,12 @@ textarea {
 }
 
 ::selection {
-  background: var(--teal-crayola);
+  background: var(--crayola-teal);
   color: var(--smoky-black);
 }
 
 :focus {
-  outline-color: var(--teal-crayola);
+  outline-color: var(--crayola-teal);
 }
 
 html {
@@ -94,7 +94,7 @@ body {
     hsl(0, 0%, 25%) 0%,
     hsla(0, 0%, 25%, 0) 50%
   );
-  --text-gradient-yellow: linear-gradient(
+  --text-gradient-teal: linear-gradient(
     to right,
     hsl(180, 42%, 51%),
     hsl(180, 100%, 25%)
@@ -108,8 +108,8 @@ body {
   --name: hsl(180, 100%, 25%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --teal-crayola: hsl(180, 42%, 51%);
-  --vegas-teal: hsl(180, 100%, 25%);
+  --crayola-teal: hsl(180, 42%, 51%);
+  --abel-teal: hsl(180, 100%, 25%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -177,7 +177,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -249,7 +249,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow);
+  background: var(--text-gradient-teal);
   border-radius: 3px;
 }
 
@@ -264,7 +264,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--teal-crayola);
+  background: var(--crayola-teal);
   border-radius: 5px;
 }
 
@@ -303,7 +303,7 @@ main {
 
 .hover-link:hover {
   transition: var(--transition-2);
-  background-color: var(--vegas-teal);
+  background-color: var(--abel-teal);
 }
 
 /*-----------------------------------*\
@@ -359,7 +359,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -584,7 +584,7 @@ main {
 }
 
 .navbar-link.active {
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
 }
 
 /**
@@ -843,7 +843,7 @@ main {
 }
 
 .timeline-item > span {
-  color: var(--vegas-teal);
+  color: var(--abel-teal);
   font-weight: var(--fw-400);
   line-height: 1.6;
   margin-bottom: 8px;
@@ -866,7 +866,7 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-yellow);
+  background: var(--text-gradient-teal);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
@@ -889,7 +889,7 @@ main {
 }
 .timeline-content .timeline-tech {
   display: inline;
-  color: var(--vegas-teal);
+  color: var(--abel-teal);
   font-style: italic;
   font-size: 14px;
 }
@@ -1015,7 +1015,7 @@ main {
 }
 
 .blog-post-item > a:hover .blog-item-title {
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
 }
 
 .blog-text {
@@ -1079,7 +1079,7 @@ main {
 }
 
 .form-input:focus {
-  border: 2px solid var(--teal-crayola);
+  border: 2px solid var(--crayola-teal);
 }
 
 textarea.form-input {
@@ -1095,14 +1095,14 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-input:focus:invalid {
-  border-color: var(--bittersweet-shimmer);
+  border-color: var(--abel-teal);
 }
 
 .form-btn {
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(--teal-crayola);
+  color: var(--crayola-teal);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1494,7 +1494,7 @@ textarea.form-input::-webkit-resizer {
     color: var(--light-gray-70);
   }
   .filter-item button.active {
-    color: var(--teal-crayola);
+    color: var(--crayola-teal);
   }
   /* portfolio and blog grid */
   .project-list,
@@ -1719,7 +1719,7 @@ textarea.form-input::-webkit-resizer {
 }
 .scroll-to-top {
   display: none;
-  background-color: var(--vegas-teal);
+  background-color: var(--abel-teal);
   position: fixed;
   justify-content: center;
   align-items: center;
@@ -1745,7 +1745,7 @@ textarea.form-input::-webkit-resizer {
 
 .more_actions {
   display: flex;
-  background-color: var(--vegas-teal);
+  background-color: var(--abel-teal);
   position: fixed;
   justify-content: center;
   align-items: center;
@@ -1801,7 +1801,7 @@ textarea.form-input::-webkit-resizer {
 
 .flower_blossom {
   display: flex;
-  background-color: var(--vegas-teal);
+  background-color: var(--abel-teal);
   position: fixed;
   justify-content: center;
   align-items: center;
