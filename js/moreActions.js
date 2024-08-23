@@ -57,8 +57,10 @@ class HandleActions {
   }
 
   contact() {
-    const sidebarBtn = document.querySelector("[data-sidebar]");
-    sidebarBtn.classList.add("active");
+    if (window.innerWidth < 1250) {
+      const sidebarBtn = document.querySelector("[data-sidebar]");
+      sidebarBtn.classList.add("active");
+    }
   }
 }
 

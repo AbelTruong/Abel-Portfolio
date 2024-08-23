@@ -1640,6 +1640,9 @@ textarea.form-input::-webkit-resizer {
   article {
     min-height: 100%;
   }
+  .sidebar.active {
+    height: 100%;
+  }
   /**
    * MAIN
    */
