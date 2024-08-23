@@ -1,7 +1,6 @@
 "use strict";
 import { showModalTestimonial } from "./showModalTestimonial.js";
 import { showModalAvatar } from "./showModalAvatar.js";
-import { showMoreActions } from "./moreActions.js";
 
 // element toggle function
 const elementToggleFunc = function (elem) {
@@ -96,6 +95,12 @@ for (let i = 0; i < navigationLinks.length; i++) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
+        const element = document.querySelector("[show-more-actions]");
+        if (element.classList.contains("active")) {
+          setTimeout(() => {
+            element.classList.remove("active");
+          }, 200);
+        }
       } else {
         pages[i].classList.remove("active");
         navigationLinks[i].classList.remove("active");
@@ -134,22 +139,3 @@ for (let i = 0; i < testimonialsItem.length; i++) {
  */
 const modalAvatar = document.querySelector("[modal-avatar]");
 modalAvatar.addEventListener("click", showModalAvatar.bind(null, modalAvatar));
-
-/**
- * Show More Actions
- */
-document.addEventListener("DOMContentLoaded", function () {
-  const moreActions = document.querySelector("[show-more-actions]");
-  moreActions.addEventListener("click", function () {
-    showMoreActions();
-  });
-});
-
-document.getElementById("flowerButton").addEventListener("click", function () {
-  const flowerEffect = document.getElementById("flowerEffect");
-  flowerEffect.classList.add("blossom");
-
-  setTimeout(function () {
-    flowerEffect.classList.remove("blossom");
-  }, 500);
-});
