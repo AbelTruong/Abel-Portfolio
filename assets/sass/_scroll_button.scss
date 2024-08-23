@@ -14,9 +14,14 @@
   left: 20px;
   width: 40px;
   height: 40px;
-  z-index: 10;
+  z-index: 9;
 
   &:hover {
     opacity: 0.6;
+
+    & svg {
+      transform: scale(1.4);
+      transition: all 0.2s ease;
+    }
   }
 }

@@ -180,9 +180,7 @@
         </ul>
       </nav>
 
-      <!--
-        - #ABOUT
-      -->
+      <!-- ABOUT -->
       <article class="about active" data-page="about">
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -402,10 +400,7 @@
         </section>
       </article>
 
-      <!--
-        - #RESUME
-      -->
-
+      <!-- RESUME -->
       <article class="resume" data-page="resume">
         <header>
           <h2 class="h2 article-title">Resume</h2>
@@ -637,9 +632,7 @@
         </section>
       </article>
 
-      <!--
-          - #WHAT I LEARN
-      -->
+      <!-- WHAT I LEARN -->
       <article class="learned" data-page="learned">
         <header>
           <h2 class="h2 article-title">Learned</h2>
@@ -692,23 +685,18 @@
             </ul>
           </div>
 
-          <ul>
-            <li>coming soon</li>
-          </ul>
+          <p style="color: #fff">coming soon</p>
         </section>
       </article>
 
-      <!--
-        - #BLOG
-      -->
+      <!-- BLOG  -->
       <article class="blog" data-page="blog">
         <header>
           <h2 class="h2 article-title">Blog</h2>
         </header>
 
-        <section class="blog-posts">
-          coming soon
-          <!-- <ul class="blog-posts-list">
+        <!-- <section class="blog-posts">
+          <ul class="blog-posts-list">
             <li class="blog-post-item">
               <a href="#">
                 <figure class="blog-banner-box">
@@ -730,14 +718,13 @@
                 </div>
               </a>
             </li>
-          </ul> -->
-        </section>
+          </ul>
+        </section> -->
+        <p style="color: #fff">coming soon</p>
       </article>
 
-      <!--
-              - #CONTACT
-            -->
-      <!-- <article class="contact" data-page="contact">
+      <!-- CONTACT -->
+      <article class="contact" data-page="contact">
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
@@ -770,7 +757,15 @@
             </button>
           </form>
         </section>
-      </article> -->
+      </article>
+
+      <!-- LISTEN WITH ME -->
+      <article class="listen" data-page="listen with me">
+        <header>
+          <h2 class="h2 article-title">Listen with me</h2>
+        </header>
+        <p style="color: #fff">listen with me</p>
+      </article>
     </div>
 
     <!-- 
@@ -800,42 +795,31 @@
       </section>
     </div>
 
-    <!-- 
-      more actions
-      - change theme light/dark
-      - change background image
-      - change fullscreen
-      - download PDF my CV
-      - Add copyright copy information
-      - show animation flower blossom 
-      - ...
-    -->
+    <!-- MORE ACTIONS -->
     <div class="more_actions" show-more-actions>
-      <img src="./assets/images/icon-click.png" alt="click to show more action" />
+      <div class="action__button" data-action="action__show">
+        <img src="./assets/images/icon-click.png" alt="click to show more action" />
+      </div>
+      <div class="action__button" data-action="action__copy-right">
+        <button class="navbar-link">Copyright (c) 2024 Abel</button>
+      </div>
+      <!-- <div class="action__button" data-action="action__download">
+        <h4 class="navbar-link">Download my CV</h4>
+      </div> -->
+      <div class="action__button" data-action="action__contact">
+        <button class="navbar-link" data-nav-link>Contact</button>
+      </div>
+      <div class="action__button" data-action="action__listen">
+        <button class="navbar-link" data-nav-link>Listen with me</button>
+      </div>
     </div>
-
-    <!-- <div class="flower_blossom" id="flowerButton">
-      <img src="./assets/images/blosoom.png" alt="more action" />
-      <div id="flowerEffect"></div> -->
-
-    <!-- 
-      show more navigate
-      - about me
-      - resume
-      - learned
-      - blog
-      - listen: my playlist songs
-    -->
-
-    <!-- <div class="flower_blossom" id="flowerButton">
-        <img src="./assets/images/blosoom.png" alt="more action" />
-      <div id="flowerEffect"></div> -->
   </main>
 
   <!--
     - custom js link
   -->
   <script src="./js/script.js" type="module"></script>
+  <script src="./js/moreActions.js" type="module"></script>
 
   <!--
     - ionicon link
