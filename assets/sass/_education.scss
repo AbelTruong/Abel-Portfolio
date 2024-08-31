@@ -48,7 +48,7 @@
 }
 
 .timeline-item:not(:last-child)::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -25px;
   left: -30px;
@@ -58,7 +58,7 @@
 }
 
 .timeline-item::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 5px;
   left: -33px;

@@ -4,9 +4,9 @@ class HandleActions {
   }
 
   init() {
-    const buttons = document.querySelectorAll(".action__button");
+    const buttons = document.querySelectorAll('.action__button');
     buttons.forEach((button) => {
-      button.addEventListener("click", () => this.handleAction(button));
+      button.addEventListener('click', () => this.handleAction(button));
     });
   }
 
@@ -14,31 +14,31 @@ class HandleActions {
    * Show More Actions
    */
   showMoreActions() {
-    const element = document.querySelector("[show-more-actions]");
-    element.classList.toggle("active");
+    const element = document.querySelector('[show-more-actions]');
+    element.classList.toggle('active');
   }
 
   handleAction(element) {
     const action = element.dataset.action;
 
     switch (action) {
-      case "action__show":
+      case 'action__show':
         this.showMoreActions();
         break;
-      case "action__copy-right":
+      case 'action__copy-right':
         this.copyRight();
         break;
-      case "action__download":
+      case 'action__download':
         this.download();
         break;
-      case "action__listen":
+      case 'action__listen':
         this.listen();
         break;
-      case "action__contact":
+      case 'action__contact':
         this.contact();
         break;
       default:
-        console.error("Unknown action:", action);
+        console.error('Unknown action:', action);
     }
   }
 
@@ -49,17 +49,17 @@ class HandleActions {
   }
 
   download() {
-    console.log("download action");
+    console.log('download action');
   }
 
   listen() {
-    console.log("listen action");
+    console.log('listen action');
   }
 
   contact() {
     if (window.innerWidth < 1250) {
-      const sidebarBtn = document.querySelector("[data-sidebar]");
-      sidebarBtn.classList.add("active");
+      const sidebarBtn = document.querySelector('[data-sidebar]');
+      sidebarBtn.classList.add('active');
     }
   }
 }
@@ -67,6 +67,6 @@ class HandleActions {
 /**
  * handle more action
  */
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
   new HandleActions();
 });

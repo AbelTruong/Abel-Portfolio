@@ -1,5 +1,9 @@
 {
   "prettier.trailingComma": "es5",
-  "editor.tabSize": 2,
-  "editor.formatOnSave": true
+  "prettier.tabWidth": 4,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
