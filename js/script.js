@@ -136,3 +136,26 @@ for (let i = 0; i < testimonialsItem.length; i++) {
  */
 const modalAvatar = document.querySelector('[modal-avatar]');
 modalAvatar.addEventListener('click', showModalAvatar.bind(null, modalAvatar));
+
+/**
+ * Handle page content display when reload
+ */
+window.addEventListener('load', function () {
+  const navigationLinks = document.querySelectorAll('[data-nav-link]');
+  const pages = document.querySelectorAll('[data-page]');
+
+  for (let i = 0; i < navigationLinks.length; i++) {
+    if (navigationLinks[i].href.includes(location.hash)) {
+      for (let i = 0; i < pages.length; i++) {
+        if (location.hash.includes(pages[i].dataset.page.split(' ').join('-'))) {
+          pages[i].classList.add('active');
+          navigationLinks[i].classList.add('active');
+        } else {
+          pages[i].classList.remove('active');
+          navigationLinks[i].classList.remove('active');
+        }
+      }
+      break;
+    }
+  }
+});
