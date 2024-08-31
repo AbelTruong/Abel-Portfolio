@@ -91,7 +91,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-btn::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 1px;
   background: var(--bg-gradient-jet);
