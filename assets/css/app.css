@@ -93,7 +93,7 @@ body {
    * typography
    */
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: "Poppins", sans-serif;
   /* font-size */
   --fs-1: 24px;
   --fs-2: 18px;
@@ -159,7 +159,7 @@ article {
 }
 
 .icon-box::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: var(--eerie-black-1);
@@ -219,7 +219,7 @@ article.active {
 }
 
 .article-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -260,7 +260,7 @@ article.active {
 }
 
 .content-card::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: var(--bg-gradient-jet);
@@ -344,7 +344,7 @@ main {
 }
 
 .info_more-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   border-radius: inherit;
@@ -492,7 +492,7 @@ main {
 }
 
 .service-item::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: var(--bg-gradient-jet);
@@ -826,7 +826,7 @@ main {
 }
 
 .timeline-item:not(:last-child)::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -25px;
   left: -30px;
@@ -836,7 +836,7 @@ main {
 }
 
 .timeline-item::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 5px;
   left: -33px;
@@ -933,7 +933,7 @@ main {
 }
 
 .blog-post-item > a::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   border-radius: inherit;
@@ -1093,7 +1093,7 @@ textarea.form-input::-webkit-resizer {
 }
 
 .form-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: var(--bg-gradient-jet);
@@ -1598,9 +1598,7 @@ textarea.form-input::-webkit-resizer {
     border: 5px solid var(--smoky-black);
     background: hsla(0, 0%, 100%, 0.1);
     border-radius: 20px;
-    box-shadow:
-      inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
-      inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11), inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
   }
   body::-webkit-scrollbar-thumb:hover {
     background: hsla(0, 0%, 100%, 0.15);
