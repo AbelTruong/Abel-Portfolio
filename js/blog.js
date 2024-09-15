@@ -10,6 +10,9 @@ class BlogActions {
     this.img = document.querySelector('[data-blog-img]');
     this.details = document.querySelector('[data-blog-details]');
     this.time = document.querySelector('[data-blog-time]');
+
+    // custom select variables
+    this.filterBtn = document.querySelectorAll('[data-filter-btn]');
   }
 
   async init() {
@@ -38,6 +41,7 @@ class BlogActions {
 
       // register event click to close modal
       this.closeArticle();
+      this.filterBlogs();
     } catch (error) {
       console.error('Error fetching blogs:', error);
     }
@@ -45,6 +49,7 @@ class BlogActions {
 
   renderBlogs(data) {
     const blogContainer = document.querySelector('.blog-posts-list');
+    blogContainer.innerHTML = [];
     if (data.length) {
       data.forEach((blog) => {
         const blogHtml = `
@@ -129,6 +134,27 @@ class BlogActions {
     const url = new URL(window.location);
     url.search = '';
     history.replaceState(null, '', url);
+  }
+
+  filterBlogs() {
+    let articles = [];
+    let lastClickedBtn = this.filterBtn[0];
+
+    for (let i = 0; i < this.filterBtn.length; i++) {
+      this.filterBtn[i].addEventListener('click', () => {
+        let selectedValue = this.filterBtn[i].innerText.toLowerCase();
+        lastClickedBtn.classList.remove('active');
+        this.filterBtn[i].classList.add('active');
+        lastClickedBtn = this.filterBtn[i];
+
+        if (selectedValue === 'all') {
+          articles = this.blogLists;
+        } else {
+          articles = this.blogLists.filter((item) => item.tag === selectedValue);
+        }
+        this.renderBlogs(articles);
+      });
+    }
   }
 }
 

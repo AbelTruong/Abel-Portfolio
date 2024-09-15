@@ -1,26 +1,26 @@
 [
   {
     "title": "Who am I",
-    "description": "this is my description 1",
-    "createAt": "Sep 06, 2024 20:20",
+    "description": "who am i",
+    "createAt": "Sep 15, 2024 20:20",
     "imageUrl": "./assets/images/blog-1.jpg",
-    "content": "this is my content",
+    "content": "Are you looking forward to my story? Coming Soon",
     "tag": "life"
   },
   {
     "title": "Why I blog",
-    "description": "this is my description 2",
-    "createAt": "Sep 06, 2024 20:20",
+    "description": "why i blog",
+    "createAt": "Sep 15, 2024 20:20",
     "imageUrl": "./assets/images/blog-1.jpg",
-    "content": "this is my content",
+    "content": "Are you looking forward to my story? Coming Soon",
     "tag": "development"
   },
   {
-    "title": "my story",
-    "description": "this is my description 3",
-    "createAt": "Sep 06, 2024 20:20",
+    "title": "My Story",
+    "description": "my story",
+    "createAt": "Sep 15, 2024 20:20",
     "imageUrl": "./assets/images/blog-1.jpg",
-    "content": "this is my content",
+    "content": "Are you looking forward to my story? Coming Soon",
     "tag": "confide"
   }
 ]
