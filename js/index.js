@@ -141,8 +141,6 @@ modalAvatar.addEventListener('click', showModalAvatar.bind(null, modalAvatar));
  * Handle page content display when reload
  */
 window.addEventListener('load', function () {
-  const navigationLinks = document.querySelectorAll('[data-nav-link]');
-  const pages = document.querySelectorAll('[data-page]');
   if (!location.hash) return;
   for (let i = 0; i < navigationLinks.length; i++) {
     if (navigationLinks[i].href.includes(location.hash)) {

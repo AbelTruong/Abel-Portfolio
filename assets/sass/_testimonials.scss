@@ -121,6 +121,7 @@
 .modal-container.active .modal {
   transform: scale(1);
   opacity: 1;
+  height: var(--modal-height);
 }
 
 .modal-close-btn {
