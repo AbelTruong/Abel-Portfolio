@@ -78,6 +78,10 @@
   #REUSED STYLE
 \*-----------------------------------*/
 
+.no__select {
+  user-select: none;
+}
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -125,6 +129,7 @@ article {
 
 article {
   display: none;
+  height: auto;
 }
 
 article.active {
@@ -210,6 +215,7 @@ article.active {
   box-shadow: var(--shadow-2);
   cursor: pointer;
   z-index: 1;
+  user-select: none;
 }
 
 .content-card::before {
