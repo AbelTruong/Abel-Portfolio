@@ -94,3 +94,5 @@ https://developers.google.com/search/docs/appearance/structured-data
   document.head.appendChild(script);
 </script>
 ```
+
+https://search.google.com/search-console?resource_id=https%3A%2F%2Fabeltruong.asia%2F
