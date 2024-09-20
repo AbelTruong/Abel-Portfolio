@@ -6,6 +6,7 @@ const overlay = document.querySelector('[data-testimonial-overlay]');
 const modalImg = document.querySelector('[data-testimonial-img]');
 const modalTitle = document.querySelector('[data-testimonial-title]');
 const modalText = document.querySelector('[data-modal-testimonial-text]');
+const modalTime = document.querySelector('[data-modal-testimonial-time]');
 
 // modal toggle function
 const toggleModal = function () {
@@ -21,10 +22,11 @@ function closeModal() {
 
 function showModalTestimonial(testimonialsItem) {
   // add click event to all modal items
-  modalImg.src = testimonialsItem.querySelector('[data-testimonials-avatar]').src;
-  modalImg.alt = testimonialsItem.querySelector('[data-testimonials-avatar]').alt;
-  modalTitle.innerHTML = testimonialsItem.querySelector('[data-testimonials-title]').innerHTML;
-  modalText.innerHTML = testimonialsItem.querySelector('[data-testimonials-text]').innerHTML;
+  modalImg.src = testimonialsItem.querySelector('[data-testimonials-avatar]')?.src;
+  modalImg.alt = testimonialsItem.querySelector('[data-testimonials-avatar]')?.alt;
+  modalTitle.innerHTML = testimonialsItem.querySelector('[data-testimonials-title]')?.innerHTML;
+  modalText.innerHTML = testimonialsItem.querySelector('[data-testimonials-text]')?.innerHTML;
+  modalTime.innerHTML = testimonialsItem.querySelector('[data-testimonials-time]')?.innerHTML;
 
   toggleModal();
   closeModal();
