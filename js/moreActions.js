@@ -48,8 +48,42 @@ class HandleActions {
     }, 100);
   }
 
+  /**
+   * Initiates the download of a PDF file and handles the download process.
+   * Fetches the file from a specified URL, creates a temporary link element to trigger the download,
+   * and then cleans up the created URL object.
+   *
+   * @returns {void} This function does not return a value.
+   */
   download() {
     console.log('download action');
+    const url = './../mocks/abel_CV.pdf';
+
+    fetch(url)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.blob();
+      })
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = 'Truong Hung An - Web Developer.pdf';
+        document.body.appendChild(a);
+        a.click();
+        window.URL.revokeObjectURL(url);
+      })
+      .catch((error) => {
+        console.error('There was a problem with the fetch operation:', error);
+      })
+      .finally(() => {
+        setTimeout(() => {
+          this.showMoreActions();
+        }, 100);
+      });
   }
 
   listen() {
