@@ -10,6 +10,7 @@
     "format": "npm-run-all -p format:*",
     "remove_depend": "rm -rf node_modules yarn.lock package-lock.json build .cache",
     "install_depend": "npm i",
+    "open": "open https://github.com/AbelTruong/Abel-Portfolio",
     "build": "vite build",
     "vite": "vite"
   },
