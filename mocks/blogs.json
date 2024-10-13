@@ -6,21 +6,5 @@
     "imageUrl": "./assets/images/blog-1.jpg",
     "content": "Are you looking forward to my story? Coming Soon",
     "tag": "life"
-  },
-  {
-    "title": "Why I blog",
-    "description": "why i blog",
-    "createAt": "Sep 15, 2024 20:20",
-    "imageUrl": "./assets/images/blog-1.jpg",
-    "content": "Are you looking forward to my story? Coming Soon",
-    "tag": "development"
-  },
-  {
-    "title": "My Story",
-    "description": "my story",
-    "createAt": "Sep 15, 2024 20:20",
-    "imageUrl": "./assets/images/blog-1.jpg",
-    "content": "Are you looking forward to my story? Coming Soon",
-    "tag": "confide"
   }
 ]
