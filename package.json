@@ -11,16 +11,30 @@
     "remove_depend": "rm -rf node_modules yarn.lock package-lock.json build .cache",
     "install_depend": "npm i",
     "open": "open https://github.com/AbelTruong/Abel-Portfolio",
-    "build": "vite build",
-    "vite": "vite"
+    "watch:dev": "webpack --mode development --watch --progress --watch-options-stdin",
+    "watch:prod": "webpack --mode production --progress",
+    "build": "webpack --mode production --progress && yarn watch:prod"
   },
   "type": "module",
   "engines": {
     "node": ">=16.0.0 <22.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.2.4"
+    "postcss-loader": "^8.1.1",
+    "prettier": "^3.2.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   },
   "author": "abeltruong",
   "dependencies": {
