@@ -1,0 +1,91 @@
+/*-----------------------------------*\
+  #LANGUAGE TOGGLE (Fixed Button)
+\*-----------------------------------*/
+
+.language-toggle-fixed {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  background: var(--bg-gradient-onyx);
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+
+  &:hover {
+    box-shadow: var(--shadow-4);
+  }
+
+  .lang-toggle-btn {
+    width: 50px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid var(--border-gradient-onyx);
+    border-radius: 8px;
+    color: var(--light-gray);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-500);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span {
+      font-weight: var(--fw-600);
+      letter-spacing: 1px;
+    }
+
+    &:hover {
+      background: var(--bg-gradient-jet);
+      border-color: var(--orange-yellow-crayola);
+      color: var(--orange-yellow-crayola);
+      transform: translateY(-2px);
+    }
+
+    &.active {
+      background: var(--bg-gradient-yellow-1);
+      border-color: var(--orange-yellow-crayola);
+      color: var(--smoky-black);
+      box-shadow: var(--shadow-2);
+
+      span {
+        font-weight: var(--fw-700);
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 580px) {
+  .language-toggle-fixed {
+    bottom: 70px;
+    right: 15px;
+    padding: 8px;
+    gap: 6px;
+
+    .lang-toggle-btn {
+      width: 45px;
+      height: 35px;
+      font-size: var(--fs-8);
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .language-toggle-fixed {
+    bottom: 60px;
+    right: 10px;
+    padding: 6px;
+
+    .lang-toggle-btn {
+      width: 40px;
+      height: 30px;
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "title": "Abel Truong (ABTECH) - Shopify Developer tự do tại Việt Nam",
+    "description": "Abel Truong (ABTECH) - Shopify Developer tự do nhận dự án xây dựng, tối ưu và tùy biến store Shopify cho merchant Việt Nam & Đông Nam Á. 3+ năm kinh nghiệm làm việc với khách hàng quốc tế.",
+    "keywords": "Shopify Việt Nam, thiết kế store Shopify, sửa lỗi Shopify, Shopify freelancer, ABTECH, Shopify developer Vietnam, tối ưu Shopify",
+    "ogTitle": "Abel Truong (ABTECH) - Shopify Developer tự do",
+    "ogDescription": "Xây dựng & tối ưu store Shopify cho merchant Việt Nam/SEA. Giao tiếp trực tiếp 1-1, báo giá trọn gói, chất lượng quốc tế."
+  },
+  "hero": {
+    "name": "Abel Truong",
+    "title": "Shopify Developer | ABTECH",
+    "tagline": "Xây dựng & tối ưu store Shopify - Nhanh, gọn, đúng việc",
+    "badge": "Đang nhận 2-3 dự án/tháng",
+    "contactBtn": "Xem Contacts"
+  },
+  "nav": {
+    "about": "Về tôi",
+    "services": "Dịch vụ & Giá",
+    "experience": "Kinh nghiệm",
+    "caseStudies": "Case Studies",
+    "faq": "FAQ",
+    "contact": "Liên hệ"
+  },
+  "about": {
+    "title": "Về tôi",
+    "heading": "Xin chào! Mình là Abel",
+    "intro": "Mình là Abel (Trương Hùng An) - Shopify Developer với 3+ năm kinh nghiệm làm dự án cho khách hàng Mỹ, Úc, Canada tại các agency quốc tế.",
+    "paragraph1": "Hiện tại mình đang là Shopify Developer tại Teifi Digital, nơi mình làm việc trực tiếp cho các thương hiệu lớn như Beginning Boutique (Úc), Glass Warehouse USA, Valhalla Pure Outfitters (Canada). Trong quá trình này, mình đã tích lũy được nhiều kinh nghiệm về Shopify theme customization, checkout extensions, app development, và performance optimization.",
+    "paragraph2": "ABTECH (Hộ kinh doanh Công nghệ Abel) ra đời từ mong muốn dùng chuyên môn quốc tế này để phục vụ trực tiếp merchant Việt Nam và Đông Nam Á - những người khó tiếp cận agency lớn vì ngân sách hoặc quy mô dự án nhỏ.",
+    "paragraph3": "Vì ABTECH là hoạt động part-time (ngoài giờ làm full-time), mình chỉ nhận 2-3 dự án mỗi tháng để đảm bảo chất lượng. Mình làm việc trực tiếp 1-1 với founder/chủ shop, không qua account manager, không tính giờ mà tính theo gói trọn dự án. Ứng dụng AI tools (Claude Code, GitHub Copilot) giúp tăng tốc độ giao hàng nhưng không bao giờ đánh đổi chất lượng code.",
+    "serviceTitle": "Những gì mình đang làm",
+    "services": [
+      {
+        "title": "Shopify Experts",
+        "description": "Nâng cấp bản thân mỗi ngày để trở thành freelance developer chuyên nghiệp trên nền tảng Shopify"
+      },
+      {
+        "title": "E-commerce Development",
+        "description": "Xây dựng và duy trì website bán hàng trên nền tảng Shopify cho doanh nghiệp VN/SEA"
+      },
+      {
+        "title": "Shopify App Development",
+        "description": "Phát triển ứng dụng Shopify tùy chỉnh để giải quyết nhu cầu kinh doanh cụ thể"
+      },
+      {
+        "title": "Web Development",
+        "description": "Phát triển website chuyên nghiệp ngoài nền tảng Shopify với công nghệ hiện đại"
+      }
+    ]
+  },
+  "services": {
+    "title": "Dịch vụ & Bảng giá",
+    "subtitle": "Các gói dịch vụ được thiết kế linh hoạt, phù hợp với nhu cầu từ nhỏ đến lớn",
+    "packages": [
+      {
+        "name": "Fix & Optimize",
+        "description": "Sửa bug, tối ưu tốc độ tải trang (Core Web Vitals), sửa lỗi theme, cải thiện hiệu năng",
+        "price": "3.000.000 - 8.000.000₫",
+        "duration": "2-5 ngày",
+        "features": [
+          "Sửa lỗi hiển thị, chức năng",
+          "Tối ưu tốc độ (LCP, CLS, INP)",
+          "Debug theme issues",
+          "Performance audit"
+        ],
+        "cta": "Tư vấn gói này"
+      },
+      {
+        "name": "Store Setup",
+        "description": "Setup store mới từ theme có sẵn, tùy biến cơ bản giao diện, cấu hình app cần thiết",
+        "price": "15.000.000 - 25.000.000₫",
+        "duration": "1-2 tuần",
+        "features": [
+          "Setup theme từ đầu",
+          "Tùy biến giao diện cơ bản",
+          "Cấu hình apps",
+          "Import sản phẩm (< 500 SKU)",
+          "Hướng dẫn quản trị"
+        ],
+        "cta": "Tư vấn gói này"
+      },
+      {
+        "name": "Custom Feature",
+        "description": "Xây dựng tính năng riêng: product configurator, custom checkout logic, tích hợp app/API bên thứ 3",
+        "price": "20.000.000 - 40.000.000₫",
+        "duration": "2-3 tuần",
+        "features": [
+          "Custom sections/features",
+          "Checkout UI extension",
+          "Shopify Functions",
+          "API integration",
+          "Custom app development"
+        ],
+        "cta": "Tư vấn gói này"
+      },
+      {
+        "name": "Redesign Toàn Diện",
+        "description": "Redesign giao diện toàn bộ store, tối ưu trải nghiệm mua hàng, conversion optimization",
+        "price": "30.000.000 - 60.000.000₫",
+        "duration": "3-4 tuần",
+        "features": [
+          "Redesign theme hoàn toàn",
+          "UX/UI optimization",
+          "Mobile-first approach",
+          "Conversion optimization",
+          "Performance tuning",
+          "A/B testing setup"
+        ],
+        "cta": "Tư vấn gói này"
+      }
+    ],
+    "note": "💡 Giá tham khảo, báo giá chính xác sau khi trao đổi chi tiết về yêu cầu. Nhận thanh toán qua chuyển khoản/Agribank.",
+    "guarantee": "✅ Cam kết bàn giao source code, hướng dẫn sử dụng chi tiết, hỗ trợ sau bàn giao"
+  },
+  "process": {
+    "title": "Quy trình làm việc",
+    "subtitle": "Minh bạch, rõ ràng từng bước",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Trao đổi yêu cầu",
+        "description": "Nhắn Zalo/Facebook, mô tả chi tiết vấn đề hoặc mong muốn của bạn"
+      },
+      {
+        "number": "02",
+        "title": "Báo giá & Timeline",
+        "description": "Nhận báo giá cụ thể và timeline trong vòng 24-48h (ngày làm việc)"
+      },
+      {
+        "number": "03",
+        "title": "Thực hiện dự án",
+        "description": "Cập nhật tiến độ định kỳ, có thể xem demo/staging trước khi hoàn tất"
+      },
+      {
+        "number": "04",
+        "title": "Bàn giao & Hỗ trợ",
+        "description": "Bàn giao kèm hướng dẫn sử dụng, hỗ trợ sau bàn giao theo thời gian thỏa thuận"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Kinh nghiệm",
+    "education": {
+      "title": "Học vấn",
+      "items": [
+        {
+          "school": "Học viện Công nghệ Bưu chính Viễn thông TP.HCM",
+          "period": "09/2018 - 01/2023",
+          "url": "https://ptithcm.edu.vn/"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Ngôn ngữ",
+      "items": [
+        {
+          "name": "Tiếng Anh",
+          "details": [
+            "TOEIC 2 kỹ năng: 600",
+            "Giao tiếp cơ bản, đọc hiểu tài liệu kỹ thuật",
+            "Chat với khách hàng quốc tế qua text"
+          ]
+        }
+      ]
+    },
+    "work": {
+      "title": "Kinh nghiệm làm việc",
+      "items": [
+        {
+          "company": "Teifi Digital (Beginning Boutique)",
+          "period": "05/2024 - Hiện tại",
+          "projects": [
+            {
+              "name": "Glass Warehouse USA - Shower & Fence Designer",
+              "description": "Xây dựng công cụ custom configurator cho phép khách hàng tự thiết kế vách tắm kính và hàng rào kính theo kích thước, tính giá tự động",
+              "tech": "Shopify Hydrogen, React, TypeScript, GraphQL"
+            },
+            {
+              "name": "Beginning Boutique - Checkout UI Extension",
+              "description": "Xây dựng Checkout UI Extension giúp tăng khả năng cross-sell/up-sell, cải thiện trải nghiệm thanh toán cho thương hiệu thời trang Úc với 100K+ đơn hàng/tháng",
+              "tech": "Checkout UI Extension, Branding API, React, GraphQL",
+              "url": "https://www.beginningboutique.com.au/"
+            },
+            {
+              "name": "Beginning Boutique - Theme Upgrade",
+              "description": "Nâng cấp Dawn theme từ v1.0 lên v14.0, rebuild toàn bộ customizations, tối ưu Web Vitals (LCP, INP, CLS)",
+              "tech": "Liquid, JavaScript, CSS3, Performance Optimization"
+            },
+            {
+              "name": "Shopify Functions - Discount Migration",
+              "description": "Di chuyển logic discount phức tạp từ Script Editor sang Shopify Functions, tăng performance và bảo mật",
+              "tech": "Remix, Node.js, Prisma, GraphQL, Shopify Functions"
+            }
+          ]
+        },
+        {
+          "company": "ArenaCommerce",
+          "period": "07/2022 - 02/2024",
+          "projects": [
+            {
+              "name": "Valhalla Pure Outfitters (VPO.ca)",
+              "description": "Xây dựng website e-commerce headless cho thương hiệu outdoor Canada, đáp ứng đầy đủ tính năng của một trang bán hàng hiện đại",
+              "tech": "Shopify Hydrogen, Remix, TypeScript, Tailwind CSS, GraphQL",
+              "url": "https://vpo.ca"
+            },
+            {
+              "name": "AnyFonts - Shopify App",
+              "description": "Phát triển app cho phép merchant tùy chỉnh fonts chữ trên store một cách linh hoạt với nhiều tính năng nâng cao",
+              "tech": "React, Redux Toolkit, Shopify Polaris, Node.js, Express, Strapi, PostgreSQL",
+              "url": "https://www.youtube.com/watch?v=Xugd6cCpQjY&t=8s"
+            },
+            {
+              "name": "YouTube Feed App - Maintenance",
+              "description": "Maintain và nâng cấp app nhúng YouTube videos từ channel lên store, phục vụ 500+ merchants",
+              "tech": "React, Redux, Shopify Polaris, Koa.js, PostgreSQL",
+              "url": "https://www.youtube.com/watch?v=U5U48oyadiE"
+            },
+            {
+              "name": "MMTool - Data Migration",
+              "description": "Xử lý migration dữ liệu lớn từ các nền tảng khác sang Shopify, xử lý file, background jobs",
+              "tech": "Node.js, Strapi, Job Queue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "skills": {
+    "title": "Công nghệ sử dụng",
+    "intro": "Tận dụng AI coding tools (Claude Code, GitHub Copilot) để tăng tốc độ phát triển mà không đánh đổi chất lượng code.",
+    "categories": [
+      {
+        "name": "🔭 Languages - Packages - Library - Framework: 💻",
+        "items": "HTML5, CSS3, Sass, Liquid, Tailwind CSS, Shopify Polaris, JavaScript, TypeScript, React, Next.js, Redux, Node.js, Express.js, PostgreSQL"
+      },
+      {
+        "name": "♻️ Linter: ✅",
+        "items": "EditorConfig, Prettier, ESLint"
+      },
+      {
+        "name": "🔭 Others: 💻",
+        "items": "Git, GraphQL, Strapi, Shopify Platform, Web Vitals, Shopify Functions, Checkout UI Extensions, Shopify Hydrogen"
+      }
+    ]
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Các dự án đã thực hiện (đang cập nhật)",
+    "comingSoon": "Case studies từ các dự án ABTECH sẽ được cập nhật tại đây. Hiện tại bạn có thể xem các dự án đã làm trong phần Kinh nghiệm ở trên.",
+    "placeholder": {
+      "title": "Dự án mẫu",
+      "problem": "Vấn đề khách hàng gặp phải",
+      "solution": "Giải pháp đã triển khai",
+      "result": "Kết quả đạt được"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Phản hồi từ đồng nghiệp và khách hàng"
+  },
+  "clients": {
+    "title": "Clients / Partners",
+    "subtitle": "Đã làm việc cùng"
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "question": "Bạn có làm việc full-time không? Thời gian phản hồi như thế nào?",
+        "answer": "Mình đang làm full-time tại Teifi Digital, ABTECH là hoạt động part-time (buổi tối và cuối tuần). Mình sẽ phản hồi tin nhắn trong vòng 24-48h (ngày làm việc). Vì làm part-time nên mình chỉ nhận 2-3 dự án mỗi tháng để đảm bảo chất lượng tốt nhất cho từng khách hàng."
+      },
+      {
+        "question": "Có nhận thanh toán quốc tế không?",
+        "answer": "Có, mình nhận thanh toán qua chuyển khoản ngân hàng Agribank (trong nước) hoặc chuyển khoản quốc tế. Có thể chia làm 2 đợt: 50% khi bắt đầu, 50% khi hoàn thành và bàn giao."
+      },
+      {
+        "question": "Có hỗ trợ sau khi bàn giao không?",
+        "answer": "Có, mình cung cấp hỗ trợ sau bàn giao trong thời gian thỏa thuận (thường 1-2 tuần) để đảm bảo mọi thứ chạy ổn định. Nếu phát sinh lỗi do code của mình, sẽ fix miễn phí. Sau thời gian hỗ trợ, có thể thỏa thuận gói maintenance riêng nếu cần."
+      },
+      {
+        "question": "Có nhận sửa lỗi gấp (urgent) không?",
+        "answer": "Tùy vào tình hình công việc hiện tại. Nếu là lỗi nghiêm trọng ảnh hưởng đến vận hành kinh doanh, mình sẽ ưu tiên sắp xếp. Tốt nhất là liên hệ trước để trao đổi timeline cụ thể."
+      },
+      {
+        "question": "Tại sao nên chọn ABTECH thay vì agency lớn?",
+        "answer": "Agency lớn thường có mức giá $25-49/giờ, làm việc qua account manager, và tính phí theo giờ. ABTECH thì bạn giao tiếp trực tiếp 1-1 với mình (developer thực sự làm việc), báo giá trọn gói rõ ràng, và được hưởng lợi từ kinh nghiệm làm việc với khách hàng quốc tế nhưng với chi phí hợp lý hơn. Phù hợp cho dự án vừa và nhỏ cần sự tận tâm."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "heading": "Sẵn sàng bắt đầu dự án của bạn?",
+    "subtitle": "Nhắn qua Zalo hoặc Facebook để trao đổi nhanh nhất",
+    "cta": {
+      "zalo": "Nhắn Zalo",
+      "facebook": "Nhắn Facebook",
+      "email": "Gửi Email"
+    },
+    "form": {
+      "title": "Hoặc điền form dưới đây",
+      "fullname": "Họ và tên",
+      "email": "Email",
+      "message": "Nội dung tin nhắn",
+      "submit": "Gửi tin nhắn",
+      "comingSoon": "Coming soon"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone/WhatsApp",
+      "birthday": "Sinh nhật",
+      "location": "Địa điểm"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright (c) 2024 Abel",
+    "downloadCV": "Tải CV của tôi",
+    "scrollToTop": "Scroll to top"
+  }
+}

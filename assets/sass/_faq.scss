@@ -1,0 +1,115 @@
+/*-----------------------------------*\
+  #FAQ
+\*-----------------------------------*/
+
+.faq {
+  .faq-content {
+    .faq-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .faq-item {
+      background: var(--border-gradient-onyx);
+      border-radius: 14px;
+      box-shadow: var(--shadow-2);
+      overflow: hidden;
+      transition: var(--transition-1);
+
+      &:hover {
+        box-shadow: var(--shadow-4);
+      }
+
+      .faq-question {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 25px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        transition: var(--transition-1);
+
+        h4 {
+          color: var(--white-2);
+          font-size: var(--fs-5);
+          font-weight: var(--fw-500);
+          margin: 0;
+        }
+
+        ion-icon {
+          font-size: 24px;
+          color: var(--crayola-teal);
+          transition: transform 0.3s ease;
+        }
+
+        &.active {
+          background: var(--bg-gradient-jet);
+
+          h4 {
+            color: var(--crayola-teal);
+          }
+
+          ion-icon {
+            transform: rotate(45deg);
+          }
+        }
+
+        &:hover {
+          background: var(--bg-gradient-jet);
+
+          h4 {
+            color: var(--crayola-teal);
+          }
+        }
+      }
+
+      .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, padding 0.3s ease;
+
+        p {
+          padding: 0 25px;
+          color: var(--light-gray-70);
+          font-size: var(--fs-6);
+          line-height: 1.8;
+        }
+
+        &.active {
+          max-height: 500px;
+          padding: 0 0 20px 0;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 580px) {
+  .faq {
+    .faq-content .faq-item {
+      .faq-question {
+        padding: 15px 20px;
+
+        h4 {
+          font-size: var(--fs-6);
+          padding-right: 10px;
+        }
+
+        ion-icon {
+          font-size: 20px;
+        }
+      }
+
+      .faq-answer p {
+        padding: 0 20px;
+        font-size: var(--fs-7);
+      }
+    }
+  }
+}

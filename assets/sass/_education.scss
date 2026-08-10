@@ -81,16 +81,18 @@
   }
 
   .timeline-text {
-    color: var(--light-gray);
+    color: var(--white-2);
     font-weight: var(--fw-300);
     line-height: 1.6;
     font-size: 14px;
+    opacity: 0.9;
   }
 
   .timeline-tech {
     display: inline;
-    color: var(--abel-teal);
+    color: var(--crayola-teal);
     font-style: italic;
     font-size: 14px;
+    font-weight: var(--fw-500);
   }
 }

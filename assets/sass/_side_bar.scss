@@ -44,6 +44,37 @@
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.info-content .tagline {
+  color: var(--white-2);
+  font-size: var(--fs-8);
+  line-height: 1.5;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.info-content .status-badge {
+  display: inline-block;
+  color: var(--crayola-teal);
+  background: var(--border-gradient-onyx);
+  font-size: 11px;
+  font-weight: var(--fw-500);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--crayola-teal);
+  animation: pulse 2s ease-in-out infinite;
+  box-shadow: 0 0 8px hsla(180, 42%, 51%, 0.3);
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
 }
 
 .info_more-btn {
@@ -117,12 +148,13 @@
   color: var(--light-gray-70);
   font-size: var(--fs-8);
   text-transform: uppercase;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+  line-height: 1.6;
 }
 
 .contact-info address {
@@ -139,12 +171,15 @@
 }
 
 .social-item .social-link {
-  color: var(--light-gray-70);
+  color: var(--white-2);
   font-size: 18px;
+  opacity: 0.7;
+  transition: var(--transition-1);
 }
 
 .social-item .social-link:hover {
-  color: var(--light-gray);
+  color: var(--crayola-teal);
+  opacity: 1;
 }
 
 .modal-images {
