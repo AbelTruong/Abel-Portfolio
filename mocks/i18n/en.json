@@ -25,7 +25,7 @@
     "title": "About me",
     "heading": "Hi there! I'm Abel",
     "intro": "I'm Abel (Truong Hung An) - a Shopify Developer with 3+ years of experience working on projects for clients in the US, Australia, and Canada at international agencies.",
-    "paragraph1": "Currently, I'm a Shopify Developer at Teifi Digital, where I work directly with major brands like Beginning Boutique (Australia), Glass Warehouse USA, and Valhalla Pure Outfitters (Canada). Throughout this journey, I've accumulated extensive experience in Shopify theme customization, checkout extensions, app development, and performance optimization.",
+    "paragraph1": "Currently, I'm a Shopify Developer at Teifi Digital, where I work with international clients such as Glass Warehouse USA. Previously, I worked at Beginning Boutique (Australia's leading fashion brand) and ArenaCommerce. Throughout this journey, I've accumulated extensive experience in Shopify theme customization, checkout extensions, app development, and performance optimization.",
     "paragraph2": "ABTECH (Abel Technology Business) was born from my desire to use this international expertise to directly serve merchants in Vietnam and Southeast Asia - those who find it difficult to access large agencies due to budget constraints or smaller project scopes.",
     "paragraph3": "Since ABTECH operates part-time (outside my full-time hours), I only take on 2-3 projects per month to ensure quality. I work directly 1-on-1 with founders/shop owners, no account managers, and charge per project package rather than hourly. Using AI tools (Claude Code, GitHub Copilot) helps speed up delivery without ever compromising code quality.",
     "serviceTitle": "What I'm doing",
@@ -167,22 +167,28 @@
       "title": "Work Experience",
       "items": [
         {
-          "company": "Teifi Digital (Beginning Boutique)",
+          "company": "Teifi Digital",
           "period": "05/2024 - Present",
           "projects": [
             {
               "name": "Glass Warehouse USA - Shower & Fence Designer",
               "description": "Built custom configurator tool allowing customers to design glass shower enclosures and glass fences with custom dimensions and automatic pricing",
               "tech": "Shopify Hydrogen, React, TypeScript, GraphQL"
-            },
+            }
+          ]
+        },
+        {
+          "company": "Beginning Boutique",
+          "period": "02/2024 - 05/2024",
+          "projects": [
             {
-              "name": "Beginning Boutique - Checkout UI Extension",
+              "name": "Checkout UI Extension",
               "description": "Built Checkout UI Extension to enhance cross-sell/up-sell capabilities and improve checkout experience for Australian fashion brand processing 100K+ orders/month",
               "tech": "Checkout UI Extension, Branding API, React, GraphQL",
               "url": "https://www.beginningboutique.com.au/"
             },
             {
-              "name": "Beginning Boutique - Theme Upgrade",
+              "name": "Theme Upgrade",
               "description": "Upgraded Dawn theme from v1.0 to v14.0, rebuilt all customizations, optimized Web Vitals (LCP, INP, CLS)",
               "tech": "Liquid, JavaScript, CSS3, Performance Optimization"
             },
