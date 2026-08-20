@@ -300,7 +300,7 @@ main {
 \*-----------------------------------*/
 .sidebar {
   margin-bottom: 15px;
-  max-height: 150px;
+  max-height: 160px;
   overflow: hidden;
   transition: var(--transition-2);
 }
