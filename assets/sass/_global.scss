@@ -184,10 +184,11 @@ article.active {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 30px;
-  height: 3px;
+  width: 40px;
+  height: 4px;
   background: var(--text-gradient-teal);
   border-radius: 3px;
+  box-shadow: 0 0 8px hsla(180, 42%, 51%, 0.5);
 }
 
 .has-scrollbar::-webkit-scrollbar {

@@ -14,6 +14,7 @@ const config = {
     'js-global': './js/index.js',
     'js-more-action': './js/moreActions.js',
     'js-blog': './js/blog.js',
+    'js-i18n': './js/i18n.js',
   },
   output: {
     filename: '[name].js',

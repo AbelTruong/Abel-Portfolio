@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "title": "Abel Truong (ABTECH) - Freelance Shopify Developer in Vietnam",
+    "description": "Abel Truong (ABTECH) - Freelance Shopify Developer specializing in custom store development, optimization, and customization for merchants in Vietnam & Southeast Asia. 3+ years of international experience.",
+    "keywords": "Shopify Vietnam, Shopify developer, Shopify freelancer, ABTECH, custom Shopify development, Shopify optimization, ecommerce development",
+    "ogTitle": "Abel Truong (ABTECH) - Freelance Shopify Developer",
+    "ogDescription": "Build & optimize Shopify stores for Vietnam/SEA merchants. Direct 1-on-1 communication, fixed-price packages, international quality."
+  },
+  "hero": {
+    "name": "Abel Truong",
+    "title": "Shopify Developer | ABTECH",
+    "tagline": "Build & Optimize Shopify Stores - Fast, Clean, Done Right",
+    "badge": "Currently accepting 2-3 projects/month",
+    "contactBtn": "Show Contacts"
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services & Pricing",
+    "experience": "Experience",
+    "caseStudies": "Case Studies",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About me",
+    "heading": "Hi there! I'm Abel",
+    "intro": "I'm Abel (Truong Hung An) - a Shopify Developer with 4+ years of experience working on projects for clients in the US, Australia, and Canada at international agencies.",
+    "paragraph1": "Currently, I'm a Shopify Developer at Teifi Digital, where I work with international clients such as Glass Warehouse USA, Valhalla Pure Outfitters (Canada), PLI Card Marketing Solutions,.... Previously, I worked at Beginning Boutique (Australia's leading fashion brand) and ArenaCommerce. Throughout this journey, I've accumulated extensive experience in Shopify theme customization, checkout extensions, app development, and performance optimization.",
+    "paragraph2": "ABTECH (ABEL TECHNOLOGY HOUSEHOLD BUSINESS) was born from my desire to use this international expertise to directly serve merchants in Vietnam and Southeast Asia - those who find it difficult to access large agencies due to budget constraints or smaller project scopes.",
+    "paragraph3": "I work directly 1-on-1 with founders/shop owners, account managers, and charge per project package rather than hourly. Using AI tools (Claude Code, ChatGPT-CodeX, GitHub Copilot) helps speed up delivery without ever compromising code quality.",
+    "serviceTitle": "What I'm doing",
+    "services": [
+      {
+        "title": "Shopify Experts",
+        "description": "Continuously upgrading my skills to become a professional freelance developer on the Shopify platform"
+      },
+      {
+        "title": "E-commerce Development",
+        "description": "Build and maintain e-commerce websites on Shopify platform for businesses in VN/SEA"
+      },
+      {
+        "title": "Shopify App Development",
+        "description": "Develop custom Shopify applications to solve specific business needs"
+      },
+      {
+        "title": "Web Development",
+        "description": "Professional website development beyond Shopify platform using modern technologies"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services & Pricing",
+    "subtitle": "Flexible service packages designed to fit needs from small to large",
+    "packages": [
+      {
+        "name": "Fix & Optimize",
+        "description": "Bug fixes, page speed optimization (Core Web Vitals), theme error fixes, performance improvements",
+        "price": "3,000,000 - 8,000,000₫",
+        "duration": "2-5 days",
+        "features": [
+          "Fix display & functionality bugs",
+          "Speed optimization (LCP, CLS, INP)",
+          "Debug theme issues",
+          "Performance audit"
+        ],
+        "cta": "Consult this package"
+      },
+      {
+        "name": "Store Setup",
+        "description": "Set up new store from existing theme, basic interface customization, configure necessary apps",
+        "price": "15,000,000 - 25,000,000₫",
+        "duration": "1-2 weeks",
+        "features": [
+          "Setup theme from scratch",
+          "Basic interface customization",
+          "Configure apps",
+          "Import products (< 500 SKU)",
+          "Admin training"
+        ],
+        "cta": "Consult this package"
+      },
+      {
+        "name": "Custom Feature",
+        "description": "Build custom features: product configurator, custom checkout logic, 3rd-party app/API integration",
+        "price": "20,000,000 - 40,000,000₫",
+        "duration": "2-3 weeks",
+        "features": [
+          "Custom sections/features",
+          "Checkout UI extension",
+          "Shopify Functions",
+          "API integration",
+          "Custom app development"
+        ],
+        "cta": "Consult this package"
+      },
+      {
+        "name": "Complete Redesign",
+        "description": "Full store interface redesign, shopping experience optimization, conversion optimization",
+        "price": "30,000,000 - 60,000,000₫",
+        "duration": "3-4 weeks",
+        "features": [
+          "Complete theme redesign",
+          "UX/UI optimization",
+          "Mobile-first approach",
+          "Conversion optimization",
+          "Performance tuning",
+          "A/B testing setup"
+        ],
+        "cta": "Consult this package"
+      }
+    ],
+    "note": "💡 Reference pricing, exact quote provided after discussing detailed requirements. Accept payment via bank transfer/Agribank.",
+    "guarantee": "✅ Committed to delivering source code, detailed usage guide, post-delivery support"
+  },
+  "process": {
+    "title": "Work Process",
+    "subtitle": "Transparent and clear at every step",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Requirement Discussion",
+        "description": "Message via Zalo/Facebook, describe your problem or requirements in detail"
+      },
+      {
+        "number": "02",
+        "title": "Quote & Timeline",
+        "description": "Receive specific quote and timeline within 24-48h (business days)"
+      },
+      {
+        "number": "03",
+        "title": "Project Execution",
+        "description": "Regular progress updates, preview demo/staging before completion"
+      },
+      {
+        "number": "04",
+        "title": "Delivery & Support",
+        "description": "Delivery with usage guide, post-delivery support as agreed upon"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "school": "Posts and Telecommunications Institute of Technology Ho Chi Minh",
+          "period": "09/2018 - 01/2023",
+          "url": "https://ptithcm.edu.vn/"
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "items": [
+        {
+          "name": "English",
+          "details": [
+            "TOEIC 2 skills: 600",
+            "Basic communication, reading and understanding technical documents",
+            "Chat with international clients via text"
+          ]
+        }
+      ]
+    },
+    "work": {
+      "title": "Work Experience",
+      "items": [
+        {
+          "company": "Teifi Digital",
+          "period": "05/2025 - Present",
+          "projects": [
+            {
+              "name": "Glass Warehouse USA - Shower & Fence Designer",
+              "description": "Built custom configurator tool allowing customers to design glass shower enclosures and glass fences with custom dimensions and automatic pricing",
+              "tech": "Shopify Hydrogen, React, TypeScript, GraphQL",
+              "url": "http://glasswarehouse.us/"
+            },
+            {
+              "name": "Allied Wheels Direct - B2B E-commerce Platform",
+              "description": "B2B wholesale platform for aftermarket wheel distribution with advanced vehicle fitment search, multi-warehouse inventory management, and dealer authentication system",
+              "tech": "Shopify, JavaScript ES6, Predictive Search, Real-time Inventory",
+              "url": "https://alliedwheelsdirect.com/"
+            },
+            {
+              "name": "HEAT Platform - PLI Cards Hospitality Portal",
+              "description": "B2B ordering portal for hospitality industry serving 25,000+ customers across 140 countries for gift cards, loyalty cards, and hotel key cards customization and fulfillment",
+              "tech": "Shopify Enterprise Theme",
+              "url": "http://heat.plicards.com/"
+            }
+          ]
+        },
+        {
+          "company": "Beginning Boutique",
+          "period": "05/2024 - 05/2026",
+          "projects": [
+            {
+              "name": "Checkout UI Extension",
+              "description": "Built Checkout UI Extension to enhance cross-sell/up-sell capabilities and improve checkout experience for Australian fashion brand processing 100K+ orders/month",
+              "tech": "Checkout UI Extension, Branding API, React, GraphQL",
+              "url": "https://www.beginningboutique.com.au/"
+            },
+            {
+              "name": "Theme Upgrade",
+              "description": "Upgraded Dawn theme from v1.0 to v14.0, rebuilt all customizations, optimized Web Vitals (LCP, INP, CLS)",
+              "tech": "Liquid, JavaScript, CSS3, Performance Optimization"
+            },
+            {
+              "name": "Shopify Functions - Discount Migration",
+              "description": "Migrated complex discount logic from Script Editor to Shopify Functions, improved performance and security",
+              "tech": "Remix, Node.js, Prisma, GraphQL, Shopify Functions"
+            }
+          ]
+        },
+        {
+          "company": "ArenaCommerce",
+          "period": "07/2022 - 02/2024",
+          "projects": [
+            {
+              "name": "Valhalla Pure Outfitters (VPO.ca)",
+              "description": "Built headless e-commerce website for Canadian outdoor brand, meeting all modern e-commerce requirements",
+              "tech": "Shopify Hydrogen, Remix, TypeScript, Tailwind CSS, GraphQL",
+              "url": "https://vpo.ca"
+            },
+            {
+              "name": "AnyFonts - Shopify App",
+              "description": "Developed app allowing merchants to flexibly customize fonts on their store with advanced features",
+              "tech": "React, Redux Toolkit, Shopify Polaris, Node.js, Express, Strapi, PostgreSQL",
+              "url": "https://www.youtube.com/watch?v=Xugd6cCpQjY&t=8s"
+            },
+            {
+              "name": "YouTube Feed App - Maintenance",
+              "description": "Maintained and upgraded app for embedding YouTube videos from channel to store, serving 500+ merchants",
+              "tech": "React, Redux, Shopify Polaris, Koa.js, PostgreSQL",
+              "url": "https://www.youtube.com/watch?v=U5U48oyadiE"
+            },
+            {
+              "name": "MMTool - Data Migration",
+              "description": "Handled large-scale data migration from other platforms to Shopify, file processing, background jobs",
+              "tech": "Node.js, Strapi, Job Queue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "skills": {
+    "title": "Technologies I use",
+    "intro": "Leveraging AI coding tools (Claude Code, ChatGPT-CodeX, GitHub Copilot) to accelerate development without compromising code quality.",
+    "categories": [
+      {
+        "name": "🔭 Languages - Packages - Library - Framework: 💻",
+        "items": "HTML5, CSS3, Sass, Liquid, Tailwind CSS, Shopify Polaris, JavaScript, TypeScript, React, Next.js, Redux, Node.js, Express.js, PostgreSQL"
+      },
+      {
+        "name": "♻️ Linter: ✅",
+        "items": "EditorConfig, Prettier, ESLint"
+      },
+      {
+        "name": "🔭 Others: 💻",
+        "items": "Git, GraphQL, Strapi, Shopify Platform, Web Vitals, Shopify Functions, Checkout UI Extensions, Shopify Hydrogen"
+      }
+    ]
+  },
+  "caseStudies": {
+    "title": "Case Studies",
+    "subtitle": "Completed projects (updating)",
+    "comingSoon": "Case studies from ABTECH projects will be updated here. For now, you can view completed projects in the Experience section above.",
+    "placeholder": {
+      "title": "Sample Project",
+      "problem": "Customer's problem",
+      "solution": "Implemented solution",
+      "result": "Achieved results"
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Feedback from colleagues and clients"
+  },
+  "clients": {
+    "title": "Clients / Partners",
+    "subtitle": "Worked with"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Are you working full-time? What's the response time?",
+        "answer": "I'm currently working full-time at Teifi Digital, ABTECH is a part-time activity (evenings and weekends). I respond to messages within 24-48h (business days). Due to part-time nature, I only take 2-3 projects per month to ensure the best quality for each client."
+      },
+      {
+        "question": "Do you accept international payments?",
+        "answer": "Yes, I accept payment via Agribank bank transfer (domestic) or international wire transfer. Can be split into 2 installments: 50% to start, 50% upon completion and delivery."
+      },
+      {
+        "question": "Do you provide post-delivery support?",
+        "answer": "Yes, I provide post-delivery support for the agreed period (usually 1-2 weeks) to ensure everything runs smoothly. If bugs arise from my code, I'll fix them for free. After the support period, we can arrange a separate maintenance package if needed."
+      },
+      {
+        "question": "Do you take urgent fixes?",
+        "answer": "Depends on my current workload. If it's a critical bug affecting business operations, I'll prioritize and arrange accordingly. Best to contact in advance to discuss specific timelines."
+      },
+      {
+        "question": "Why choose ABTECH over a large agency?",
+        "answer": "Large agencies typically charge $25-49/hour, work through account managers, and bill by the hour. With ABTECH, you communicate directly 1-on-1 with me (the actual developer), get clear fixed-price quotes, and benefit from international experience at more reasonable costs. Perfect for small to medium projects that need dedicated attention."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "heading": "Ready to start your project?",
+    "subtitle": "Message via Zalo or Facebook for fastest response",
+    "cta": {
+      "zalo": "Message Zalo",
+      "facebook": "Message Facebook",
+      "email": "Send Email"
+    },
+    "form": {
+      "title": "Or fill out the form below",
+      "fullname": "Full name",
+      "email": "Email address",
+      "message": "Your Message",
+      "submit": "Send message",
+      "comingSoon": "Coming soon"
+    },
+    "info": {
+      "email": "Email",
+      "phone": "Phone/WhatsApp",
+      "birthday": "Birthday",
+      "location": "Location"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright (c) 2024 Abel",
+    "downloadCV": "Download my CV",
+    "scrollToTop": "Scroll to top"
+  }
+}
