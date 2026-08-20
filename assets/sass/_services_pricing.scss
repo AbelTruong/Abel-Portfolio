@@ -1,0 +1,179 @@
+/*-----------------------------------*\
+  #SERVICES & PRICING
+\*-----------------------------------*/
+
+.services {
+  .article-subtitle {
+    margin-bottom: 30px;
+    color: var(--light-gray-70);
+    font-size: var(--fs-6);
+    line-height: 1.6;
+  }
+
+  .services-packages {
+    .service-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .service-package {
+      display: flex;
+      gap: 18px;
+      padding: 30px;
+      background: var(--border-gradient-onyx);
+      border-radius: 14px;
+      box-shadow: var(--shadow-2);
+      transition: var(--transition-1);
+
+      &:hover {
+        box-shadow: var(--shadow-4);
+        transform: translateY(-5px);
+      }
+
+      .service-icon-box {
+        flex-shrink: 0;
+
+        .package-number {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(135deg, #008080, #00a3a3);
+          border-radius: 12px;
+          font-size: var(--fs-3);
+          font-weight: var(--fw-700);
+          color: var(--white-1);
+          box-shadow: 0 4px 12px hsla(180, 100%, 25%, 0.3);
+        }
+      }
+
+      .service-content-box {
+        flex: 1;
+
+        .service-item-title {
+          margin-bottom: 10px;
+          color: var(--white-2);
+        }
+
+        .service-item-description {
+          margin-bottom: 15px;
+          color: var(--light-gray-70);
+          font-size: var(--fs-6);
+          line-height: 1.6;
+        }
+
+        .package-details {
+          margin-bottom: 15px;
+          padding-bottom: 15px;
+          border-bottom: 1px solid var(--jet);
+
+          .package-price {
+            font-size: var(--fs-4);
+            font-weight: var(--fw-600);
+            color: var(--crayola-teal);
+            margin-bottom: 5px;
+
+            strong {
+              font-weight: var(--fw-700);
+            }
+          }
+
+          .package-duration {
+            font-size: var(--fs-7);
+            color: var(--light-gray);
+          }
+        }
+
+        .package-features {
+          list-style: none;
+          margin-bottom: 20px;
+
+          li {
+            position: relative;
+            padding-left: 0;
+            margin-bottom: 8px;
+            color: var(--light-gray-70);
+            font-size: var(--fs-7);
+            line-height: 1.5;
+          }
+        }
+
+        .btn-cta {
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          padding: 12px 24px;
+          background: var(--border-gradient-onyx);
+          border: 2px solid var(--crayola-teal);
+          border-radius: 8px;
+          color: var(--crayola-teal);
+          font-size: var(--fs-7);
+          font-weight: var(--fw-500);
+          cursor: pointer;
+          transition: var(--transition-1);
+
+          &:hover {
+            background: var(--text-gradient-teal);
+            color: var(--smoky-black);
+            border-color: var(--crayola-teal);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px hsla(180, 42%, 51%, 0.3);
+          }
+        }
+      }
+    }
+
+    .services-notes {
+      margin-top: 30px;
+      padding: 20px;
+      background: var(--border-gradient-onyx);
+      border-left: 4px solid var(--crayola-teal);
+      border-radius: 8px;
+
+      p {
+        color: var(--light-gray-70);
+        font-size: var(--fs-7);
+        line-height: 1.6;
+        margin-bottom: 10px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .services {
+    .services-packages .service-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .services {
+    .services-packages {
+      .service-package {
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+
+        .service-icon-box .package-number {
+          width: 50px;
+          height: 50px;
+          font-size: var(--fs-4);
+        }
+
+        .service-content-box .btn-cta {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

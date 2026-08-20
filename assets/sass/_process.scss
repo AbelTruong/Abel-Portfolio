@@ -1,0 +1,109 @@
+/*-----------------------------------*\
+  #PROCESS TIMELINE
+\*-----------------------------------*/
+
+.process {
+  .article-subtitle {
+    margin-bottom: 30px;
+    color: var(--light-gray-70);
+    font-size: var(--fs-6);
+    line-height: 1.6;
+  }
+
+  .process-timeline {
+    .process-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 25px;
+      list-style: none;
+    }
+
+    .process-item {
+      display: flex;
+      gap: 20px;
+      padding: 25px;
+      background: var(--border-gradient-onyx);
+      border-radius: 14px;
+      box-shadow: var(--shadow-2);
+      transition: var(--transition-1);
+
+      &:hover {
+        box-shadow: var(--shadow-4);
+        transform: translateX(5px);
+      }
+
+      .process-number {
+        flex-shrink: 0;
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom right, var(--orange-yellow-crayola), var(--vegas-gold));
+        border-radius: 50%;
+        font-size: var(--fs-2);
+        font-weight: var(--fw-700);
+        color: var(--smoky-black);
+        box-shadow: var(--shadow-2);
+      }
+
+      .process-content {
+        flex: 1;
+
+        .process-title {
+          margin-bottom: 10px;
+          color: var(--white-2);
+        }
+
+        .process-description {
+          color: var(--light-gray-70);
+          font-size: var(--fs-6);
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .process {
+    .process-timeline .process-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .process {
+    .process-timeline .process-list {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .process-timeline .process-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .process-number {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .process {
+    .process-timeline .process-item {
+      flex-direction: column;
+      padding: 20px;
+      gap: 15px;
+
+      .process-number {
+        width: 60px;
+        height: 60px;
+        font-size: var(--fs-3);
+      }
+    }
+  }
+}

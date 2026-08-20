@@ -40,10 +40,20 @@ const pages = document.querySelectorAll('[data-page]');
 // add event to all nav link
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener('click', function () {
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add('active');
-        navigationLinks[i].classList.add('active');
+    const targetPage = this.getAttribute('href').replace('#', '');
+
+    // Remove active from all nav links first
+    for (let j = 0; j < navigationLinks.length; j++) {
+      navigationLinks[j].classList.remove('active');
+    }
+
+    // Add active to clicked nav link
+    this.classList.add('active');
+
+    // Show/hide pages
+    for (let j = 0; j < pages.length; j++) {
+      if (targetPage === pages[j].dataset.page) {
+        pages[j].classList.add('active');
         window.scrollTo(0, 0);
         const element = document.querySelector('[show-more-actions]');
         if (element.classList.contains('active')) {
@@ -52,8 +62,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
           }, 200);
         }
       } else {
-        pages[i].classList.remove('active');
-        navigationLinks[i].classList.remove('active');
+        pages[j].classList.remove('active');
       }
     }
   });
@@ -92,18 +101,22 @@ modalAvatar.addEventListener('click', showModalAvatar.bind(null, modalAvatar));
  */
 window.addEventListener('load', function () {
   if (!location.hash) return;
-  for (let i = 0; i < navigationLinks.length; i++) {
-    if (navigationLinks[i].href.includes(location.hash)) {
-      for (let i = 0; i < pages.length; i++) {
-        if (location.hash.includes(pages[i].dataset.page.split(' ').join('-'))) {
-          pages[i].classList.add('active');
-          navigationLinks[i].classList.add('active');
+
+  const targetPage = location.hash.replace('#', '');
+
+  for (let i = 0; i < pages.length; i++) {
+    if (targetPage === pages[i].dataset.page) {
+      pages[i].classList.add('active');
+      // Also activate corresponding nav link
+      for (let j = 0; j < navigationLinks.length; j++) {
+        if (navigationLinks[j].getAttribute('href') === location.hash) {
+          navigationLinks[j].classList.add('active');
         } else {
-          pages[i].classList.remove('active');
-          navigationLinks[i].classList.remove('active');
+          navigationLinks[j].classList.remove('active');
         }
       }
-      break;
+    } else {
+      pages[i].classList.remove('active');
     }
   }
 });
