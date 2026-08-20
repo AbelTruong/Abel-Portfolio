@@ -173,7 +173,20 @@
             {
               "name": "Glass Warehouse USA - Shower & Fence Designer",
               "description": "Built custom configurator tool allowing customers to design glass shower enclosures and glass fences with custom dimensions and automatic pricing",
-              "tech": "Shopify Hydrogen, React, TypeScript, GraphQL"
+              "tech": "Shopify Hydrogen, React, TypeScript, GraphQL",
+              "url": "http://glasswarehouse.us/"
+            },
+            {
+              "name": "Allied Wheels Direct - B2B E-commerce Platform",
+              "description": "B2B wholesale platform for aftermarket wheel distribution with advanced vehicle fitment search, multi-warehouse inventory management, and dealer authentication system",
+              "tech": "Shopify, JavaScript ES6, Predictive Search, Real-time Inventory",
+              "url": "https://alliedwheelsdirect.com/"
+            },
+            {
+              "name": "HEAT Platform - PLI Cards Hospitality Portal",
+              "description": "B2B ordering portal for hospitality industry serving 25,000+ customers across 140 countries for gift cards, loyalty cards, and hotel key cards customization and fulfillment",
+              "tech": "Shopify Enterprise Theme",
+              "url": "http://heat.plicards.com/"
             }
           ]
         },

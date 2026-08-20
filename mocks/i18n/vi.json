@@ -173,7 +173,20 @@
             {
               "name": "Glass Warehouse USA - Shower & Fence Designer",
               "description": "Xây dựng công cụ custom configurator cho phép khách hàng tự thiết kế vách tắm kính và hàng rào kính theo kích thước, tính giá tự động",
-              "tech": "Shopify Hydrogen, React, TypeScript, GraphQL"
+              "tech": "Shopify Hydrogen, React, TypeScript, GraphQL",
+              "url": "http://glasswarehouse.us/"
+            },
+            {
+              "name": "Allied Wheels Direct - Nền tảng B2B E-commerce",
+              "description": "Nền tảng bán buôn mâm xe aftermarket với tìm kiếm fitment theo xe, quản lý inventory đa kho, hệ thống xác thực dealer cho thương hiệu Raceline, Kansei, Nomad",
+              "tech": "Shopify, JavaScript ES6, Predictive Search, Real-time Inventory",
+              "url": "https://alliedwheelsdirect.com/"
+            },
+            {
+              "name": "HEAT Platform - PLI Cards Hospitality Portal",
+              "description": "Portal B2B cho ngành khách sạn phục vụ 25,000+ khách hàng tại 140 quốc gia về gift cards, loyalty cards, và key cards tùy chỉnh và fulfillment",
+              "tech": "Shopify Enterprise Theme",
+              "url": "http://heat.plicards.com/"
             }
           ]
         },
