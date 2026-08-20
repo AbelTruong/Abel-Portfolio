@@ -991,10 +991,11 @@ main {
 
 .navbar-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  overflow-x: scroll;
 }
 
 .navbar-link {
@@ -1002,6 +1003,7 @@ main {
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
+  text-wrap-mode: nowrap;
 }
 
 .navbar-link:hover,
